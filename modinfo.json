@@ -4,8 +4,8 @@
     "id": "CADA",
     "name": "Anomalous Days Ahead Mod",
     "authors": [ "Cyrano7" ],
-    "description": "Aims to change the flavor and setting of the game from New England to \"the Zone\".",
-    "category": "content",
+    "description": "Aims to change the flavor and setting of the game from New England to the \"Zone\".",
+    "category": "total_conversion",
     "dependencies": [ "dda" ]
   }
 ]
