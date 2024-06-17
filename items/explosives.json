@@ -1,0 +1,26 @@
+[
+  {
+    "id": "grenade",
+    "copy-from": "grenade",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "grenade M67", "str_pl": "grenades M67" },
+    "description": "A military-grade fragmentation hand grenade.  Use this item to pull the pin and start the fuse.  You will then have five seconds before it explodes; throwing it would be a good idea.",
+    "weight": "397 g",
+    "volume": "540 ml",
+    "price": "15 USD",
+    "price_postapoc": "10 USD"
+  },
+  {
+    "id": "grenade_act",
+    "copy-from": "grenade_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "grenade M67", "str_pl": "grenades M67" },
+    "description": "This fragmentation grenade is active, and will explode any second now.  Better throw it!",
+    "weight": "397 g",
+    "volume": "270 ml",
+    "price": "15 USD",
+    "price_postapoc": "10 USD"
+  }
+]
