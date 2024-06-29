@@ -1,0 +1,11 @@
+[
+  {
+    "type": "SCENARIO_BLACKLIST",
+    "subtype": "blacklist",
+    "scenarios": [
+      "foodplace",
+      "golden_years",
+      "migo_prisoner"
+    ]
+  }
+]
