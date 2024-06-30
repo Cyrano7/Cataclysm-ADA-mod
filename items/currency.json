@@ -1,0 +1,137 @@
+[
+  {
+    "id": "coin_penny",
+    "copy-from": "coin_penny",
+    "type": "GENERIC",
+    "name": { "str": "penny", "str_pl": "pennies" },
+    "description": "A one-cent coin, featuring a portrait of Abraham Lincoln.  You could flip it.",
+    "price": "1 cent",
+    "price_postapoc": "1 cent"
+  },
+  {
+    "id": "coin_nickel",
+    "copy-from": "coin_nickel",
+    "type": "GENERIC",
+    "name": { "str": "nickel" },
+    "description": "A five-cent coin, featuring a portrait of Thomas Jefferson.  You could flip it.",
+    "price": "5 cent",
+    "price_postapoc": "5 cent"
+  },
+  {
+    "id": "coin_dime",
+    "copy-from": "coin_dime",
+    "type": "GENERIC",
+    "name": { "str": "dime" },
+    "description": "A ten-cent coin, featuring a portrait of Franklin D Roosevelt.  You could flip it.",
+    "price": "10 cent",
+    "price_postapoc": "10 cent"
+  },
+  {
+    "id": "coin_quarter",
+    "copy-from": "coin_quarter",
+    "type": "GENERIC",
+    "name": { "str": "quarter" },
+    "description": "A twenty-five-cent coin, featuring a portrait of George Washington.  You could flip it.",
+    "price": "25 cent",
+    "price_postapoc": "25 cent"
+  },
+  {
+    "id": "coin_half_dollar",
+    "copy-from": "coin_half_dollar",
+    "type": "GENERIC",
+    "name": { "str": "half-dollar coin" },
+    "description": "A fifty-cent coin, featuring a portrait of John F Kennedy.  You could flip it.",
+    "price": "50 cent",
+    "price_postapoc": "50 cent"
+  },
+  {
+    "id": "coin_dollar",
+    "copy-from": "coin_dollar",
+    "type": "GENERIC",
+    "name": { "str": "dollar coin" },
+    "description": "A one-dollar coin, featuring a portrait of Susan B Anthony.  You could flip it.",
+    "price": "1 USD",
+    "price_postapoc": "1 USD"
+  },
+  {
+    "id": "coin_silver",
+    "copy-from": "coin_silver",
+    "type": "GENERIC",
+    "name": { "str": "Silver Eagle coin" },
+    "description": "The official silver bullion coin of the United States, it has a nominal face value of one dollar and is guaranteed to contain one troy ounce of 99.9% pure silver.",
+    "price": "23 USD",
+    "price_postapoc": "23 USD"
+  },
+  {
+    "id": "coin_gold",
+    "copy-from": "coin_gold",
+    "type": "GENERIC",
+    "name": { "str": "American Buffalo coin" },
+    "description": "The official 24-karat bullion coin of the United States, it has a nominal face value of fifty dollars and is guaranteed to contain one troy ounce of 99.99% pure gold.",
+    "price": "1 kUSD 750 USD",
+    "price_postapoc": "1 kUSD 750 USD"
+  },
+  {
+    "id": "money_one",
+    "copy-from": "money_one",
+    "type": "GENERIC",
+    "name": { "str": "one-dollar bill" },
+    "description": "A one-dollar bill, featuring a portrait of George Washington.",
+    "price": "1 USD",
+    "price_postapoc": "1 USD"
+  },
+  {
+    "id": "money_two",
+    "copy-from": "money_two",
+    "type": "GENERIC",
+    "name": { "str": "two-dollar bill" },
+    "description": "A two-dollar bill, featuring a portrait of Thomas Jefferson.",
+    "price": "2 USD",
+    "price_postapoc": "2 USD"
+  },
+  {
+    "id": "money_five",
+    "copy-from": "money_five",
+    "type": "GENERIC",
+    "name": { "str": "five-dollar bill" },
+    "description": "A five-dollar bill, featuring a portrait of Abraham Lincoln.",
+    "price": "5 USD",
+    "price_postapoc": "5 USD"
+  },
+  {
+    "id": "money_ten",
+    "copy-from": "money_ten",
+    "type": "GENERIC",
+    "name": { "str": "ten-dollar bill" },
+    "description": "A ten-dollar bill, featuring a portrait of Alexander Hamilton.",
+    "price": "10 USD",
+    "price_postapoc": "10 USD"
+  },
+  {
+    "id": "money_twenty",
+    "copy-from": "money_twenty",
+    "type": "GENERIC",
+    "name": { "str": "twenty-dollar bill" },
+    "description": "A twenty-dollar bill, featuring a portrait of Andrew Jackson.",
+    "price": "20 USD",
+    "price_postapoc": "20 USD"
+  },
+  {
+    "id": "money_fifty",
+    "copy-from": "money_fifty",
+    "type": "GENERIC",
+    "name": { "str": "fifty-dollar bill" },
+    "description": "A fifty-dollar bill, featuring a portrait of Ulysses S Grant.",
+    "price": "50 USD",
+    "price_postapoc": "50 USD"
+  },
+  {
+    "id": "money_hundred",
+    "copy-from": "money_hundred",
+    "type": "GENERIC",
+    "name": { "str": "hundred-dollar bill" },
+    "description": "A hundred-dollar bill, featuring a portrait of Benjamin Franklin.",
+    "price": "100 USD",
+    "price_postapoc": "100 USD"
+  }
+]
