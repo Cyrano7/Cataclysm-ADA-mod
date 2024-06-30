@@ -1,0 +1,27 @@
+[
+  {
+    "type": "profession_blacklist",
+    "subtype": "blacklist",
+    "professions": [
+      "clown",
+      "cheerleader",
+      "spouse",
+      "football_player",
+      "basketball_player",
+      "baseball_player",
+      "dodgeball_player",
+      "reenactor",
+      "reenactor2",
+      "gym_teacher",
+      "maid",
+      "surfer",
+      "lifeguard",
+      "hitchhiker",
+      "svictim",
+      "dancer",
+      "true_foodperson",
+      "shinto_priest",
+      "tourist_swimmer"
+    ]
+  }
+]
