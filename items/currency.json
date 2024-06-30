@@ -133,5 +133,131 @@
     "description": "A hundred-dollar bill, featuring a portrait of Benjamin Franklin.",
     "price": "100 USD",
     "price_postapoc": "100 USD"
+  },
+  {
+    "id": "money_strap_one",
+    "copy-from": "money_strap_one",
+    "type": "GENERIC",
+    "name": { "str": "one-dollar currency strap" },
+    "description": "A hundred one-dollar bills held together by a blue currency strap.",
+    "price": "100 USD",
+    "price_postapoc": "100 USD"
+  },
+  {
+    "id": "money_strap_two",
+    "copy-from": "money_strap_two",
+    "type": "GENERIC",
+    "name": { "str": "two-dollar currency strap" },
+    "description": "A hundred two-dollar bills held together by a green currency strap.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD"
+  },
+  {
+    "id": "money_strap_five",
+    "copy-from": "money_strap_five",
+    "type": "GENERIC",
+    "name": { "str": "five-dollar currency strap" },
+    "description": "A hundred five-dollar bills held together by a red currency strap.",
+    "price": "500 USD",
+    "price_postapoc": "500 USD"
+  },
+  {
+    "id": "money_strap_ten",
+    "copy-from": "money_strap_ten",
+    "type": "GENERIC",
+    "name": { "str": "ten-dollar currency strap" },
+    "description": "A hundred ten-dollar bills held together by a yellow currency strap.",
+    "price": "1 kUSD",
+    "price_postapoc": "1 kUSD"
+  },
+  {
+    "id": "money_strap_twenty",
+    "copy-from": "money_strap_twenty",
+    "type": "GENERIC",
+    "name": { "str": "twenty-dollar currency strap" },
+    "description": "A hundred twenty-dollar bills held together by a violet currency strap.",
+    "price": "2 kUSD",
+    "price_postapoc": "2 kUSD"
+  },
+  {
+    "id": "money_strap_fifty",
+    "copy-from": "money_strap_fifty",
+    "type": "GENERIC",
+    "name": { "str": "fifty-dollar currency strap" },
+    "description": "A hundred fifty-dollar bills held together by a brown currency strap.",
+    "price": "5 kUSD",
+    "price_postapoc": "5 kUSD"
+  },
+  {
+    "id": "money_strap_hundred",
+    "copy-from": "money_strap_hundred",
+    "type": "GENERIC",
+    "name": { "str": "hundred-dollar currency strap" },
+    "description": "A hundred hundred-dollar bills held together by a mustard currency strap.",
+    "price": "10 kUSD",
+    "price_postapoc": "10 kUSD"
+  },
+  {
+    "id": "money_bundle_one",
+    "copy-from": "money_bundle_one",
+    "type": "GENERIC",
+    "name": { "str": "one-dollar currency bundle" },
+    "description": "A thousand one-dollar bills, divided evenly between ten blue currency straps, and bundled together with rubber bands.",
+    "price": "1 kUSD",
+    "price_postapoc": "1 kUSD"
+  },
+  {
+    "id": "money_bundle_two",
+    "copy-from": "money_bundle_two",
+    "type": "GENERIC",
+    "name": { "str": "two-dollar currency bundle" },
+    "description": "A thousand two-dollar bills, divided evenly between ten green currency straps, and bundled together with rubber bands.",
+    "price": "2 kUSD",
+    "price_postapoc": "2 kUSD"
+  },
+  {
+    "id": "money_bundle_five",
+    "copy-from": "money_bundle_five",
+    "type": "GENERIC",
+    "name": { "str": "five-dollar currency bundle" },
+    "description": "A thousand five-dollar bills, divided evenly between ten red currency straps, and bundled together with rubber bands.",
+    "price": "5 kUSD",
+    "price_postapoc": "5 kUSD"
+  },
+  {
+    "id": "money_bundle_ten",
+    "copy-from": "money_bundle_ten",
+    "type": "GENERIC",
+    "name": { "str": "ten-dollar currency bundle" },
+    "description": "A thousand ten-dollar bills, divided evenly between ten yellow currency straps, and bundled together with rubber bands.",
+    "price": "10 kUSD",
+    "price_postapoc": "10 kUSD"
+  },
+  {
+    "id": "money_bundle_twenty",
+    "copy-from": "money_bundle_twenty",
+    "type": "GENERIC",
+    "name": { "str": "twenty-dollar currency bundle" },
+    "description": "A thousand twenty-dollar bills, divided evenly between ten violet currency straps, and bundled together with rubber bands.",
+    "price": "20 kUSD",
+    "price_postapoc": "20 kUSD"
+  },
+  {
+    "id": "money_bundle_fifty",
+    "copy-from": "money_bundle_fifty",
+    "type": "GENERIC",
+    "name": { "str": "fifty-dollar currency bundle" },
+    "description": "A thousand fifty-dollar bills, divided evenly between ten brown currency straps, and bundled together with rubber bands.",
+    "price": "50 kUSD",
+    "price_postapoc": "50 kUSD"
+  },
+  {
+    "id": "money_bundle_hundred",
+    "copy-from": "money_bundle_hundred",
+    "type": "GENERIC",
+    "name": { "str": "hundred-dollar currency bundle" },
+    "description": "A thousand hundred-dollar bills, divided evenly between ten mustard currency straps, and bundled together with rubber bands.",
+    "price": "100 kUSD",
+    "price_postapoc": "100 kUSD"
   }
 ]
