@@ -26,7 +26,7 @@
     "id": "grenade_inc",
     "copy-from": "grenade_inc",
     "type": "TOOL",
-    "name": { "str": "incendiary grenade (AN-M14)" },
+    "name": { "str": "incendiary grenade (AN-M14)", "str_pl": "incendiary grenades (AN-M14)" },
     "description": "A military-grade incendiary hand grenade.  Use this item to pull the pin and start the fuse.  You will then have five seconds before it explodes into a raging inferno; throwing it would be a good idea.",
     "price": "20 USD",
     "price_postapoc": "20 USD"
