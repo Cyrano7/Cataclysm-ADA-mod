@@ -1,0 +1,18 @@
+[
+  {
+    "result": "landmine",
+    "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "traps",
+    "skills_required": [ "mechanics", 3 ],
+    "difficulty": 5,
+    "time": "10 m",
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "scrap", 3 ] ],
+      [ [ "bb", 200 ] ],
+      [ [ "chem_compositionb", 240 ]
+      ]
+    ]
+  }
+]
