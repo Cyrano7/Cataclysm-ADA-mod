@@ -5,6 +5,11 @@
     "obsolete": true
   },
   {
+    "result": "landmine",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
     "result": "money_strap_FMCNote",
     "type": "recipe",
     "obsolete": true
