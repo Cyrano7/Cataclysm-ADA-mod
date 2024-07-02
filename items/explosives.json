@@ -1,36 +1,5 @@
 [
   {
-    "id": "flashbang",
-    "copy-from": "flashbang",
-    "type": "TOOL",
-    "name": { "str": "stun grenade (M84)", "str_pl": "stun grenades (M84)" },
-    "description": "A military-grade stun grenade or \"flashbang\".  Use this item to pull the pin and start the fuse.  You will then have five seconds before it detonates with intense light and sound, blinding, deafening, and disorienting anyone nearby.",
-    "weight": "374 g",
-    "volume": "270 ml",
-    "price": "20 USD",
-    "price_postapoc": "20 USD",
-    "use_action": {
-      "need_wielding": true,
-      "target": "flashbang_act",
-      "msg": "You pull the pin on the stun grenade.",
-      "target_timer": "5 seconds",
-      "menu_text": "Pull pin",
-      "type": "transform"
-    }
-  },
-  {
-    "id": "flashbang_act",
-    "copy-from": "flashbang_act",
-    "type": "TOOL",
-    "name": { "str": "stun grenade (M84)", "str_pl": "stun grenades (M84)" },
-    "description": "This stun grenade is active, and will soon detonate with intense light and sound, blinding, deafening, and disorienting anyone nearby.  It may be a good idea to throw it!",
-    "weight": "374 g",
-    "volume": "270 ml",
-    "price": "20 USD",
-    "price_postapoc": "20 USD",
-    "use_action": { "type": "message", "message": "You've already pulled the pin on this stun grenade, try throwing it instead.", "name": "Pull pin" }
-  },
-  {
     "id": "grenade",
     "copy-from": "grenade",
     "type": "TOOL",
@@ -70,5 +39,36 @@
     "description": "An active incendiary hand grenade, likely to burst into an inferno any second now.  Better throw it!",
     "price": "20 USD",
     "price_postapoc": "20 USD"
+  },
+  {
+    "id": "flashbang",
+    "copy-from": "flashbang",
+    "type": "TOOL",
+    "name": { "str": "stun grenade (M84)", "str_pl": "stun grenades (M84)" },
+    "description": "A military-grade stun grenade or \"flashbang\".  Use this item to pull the pin and start the fuse.  You will then have five seconds before it detonates with intense light and sound, blinding, deafening, and disorienting anyone nearby.",
+    "weight": "374 g",
+    "volume": "270 ml",
+    "price": "20 USD",
+    "price_postapoc": "20 USD",
+    "use_action": {
+      "need_wielding": true,
+      "target": "flashbang_act",
+      "msg": "You pull the pin on the stun grenade.",
+      "target_timer": "5 seconds",
+      "menu_text": "Pull pin",
+      "type": "transform"
+    }
+  },
+  {
+    "id": "flashbang_act",
+    "copy-from": "flashbang_act",
+    "type": "TOOL",
+    "name": { "str": "stun grenade (M84)", "str_pl": "stun grenades (M84)" },
+    "description": "This stun grenade is active, and will soon detonate with intense light and sound, blinding, deafening, and disorienting anyone nearby.  It may be a good idea to throw it!",
+    "weight": "374 g",
+    "volume": "270 ml",
+    "price": "20 USD",
+    "price_postapoc": "20 USD",
+    "use_action": { "type": "message", "message": "You've already pulled the pin on this stun grenade, try throwing it instead.", "name": "Pull pin" }
   }
 ]
