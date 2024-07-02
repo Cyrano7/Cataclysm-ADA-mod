@@ -3,5 +3,30 @@
     "result": "flashbang",
     "type": "recipe",
     "obsolete": true
+  },
+  {
+    "result": "money_strap_FMCNote",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "money_bundle_FMCNote",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "drink_strawberry_surprise",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "drink_boozeberry",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "drink_hobo",
+    "type": "recipe",
+    "obsolete": true
   }
 ]
