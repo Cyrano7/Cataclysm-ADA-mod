@@ -8,7 +8,15 @@
     "weight": "374 g",
     "volume": "270 ml",
     "price": "20 USD",
-    "price_postapoc": "20 USD"
+    "price_postapoc": "20 USD",
+    "use_action": {
+      "need_wielding": true,
+      "target": "flashbang_act",
+      "msg": "You pull the pin on the stun grenade.",
+      "target_timer": "5 seconds",
+      "menu_text": "Pull pin",
+      "type": "transform"
+    }
   },
   {
     "id": "flashbang_act",
@@ -19,7 +27,8 @@
     "weight": "374 g",
     "volume": "270 ml",
     "price": "20 USD",
-    "price_postapoc": "20 USD"
+    "price_postapoc": "20 USD",
+    "use_action": { "type": "message", "message": "You've already pulled the pin on this stun grenade, try throwing it instead.", "name": "Pull pin" }
   },
   {
     "id": "grenade",
@@ -41,6 +50,7 @@
     "weight": "397 g",
     "volume": "540 ml",
     "price": "30 USD",
-    "price_postapoc": "30 USD"
+    "price_postapoc": "30 USD",
+    "use_action": { "type": "message", "message": "You've already pulled the pin on this grenade, try throwing it instead.", "name": "Pull pin" }
   }
 ]
