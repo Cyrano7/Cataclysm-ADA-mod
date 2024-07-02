@@ -1,0 +1,54 @@
+[
+  {
+    "id": "tr_landmine",
+    "copy-from": "tr_landmine",
+    "type": "trap",
+    "color": "red",
+    "trigger_weight": "200 g",
+    "name": "anti-personnel mine (PMN-1)",
+    "memorial_male": { "ctxt": "memorial_male", "str": "Stepped on a anti-personnel mine." },
+    "memorial_female": { "ctxt": "memorial_female", "str": "Stepped on a anti-personnel mine." },
+    "flags": [ "ECHOLOCATION_DETECTABLE" ],
+    "symbol": "^",
+    "visibility": 1,
+    "avoidance": 14,
+    "difficulty": 10,
+    "action": "landmine",
+    "drops": [ "landmine" ],
+    "vehicle_data": {
+      "do_explosion": true,
+      "damage": 1000,
+      "shrapnel": 8,
+      "sound_volume": 10,
+      "sound": "Boom!",
+      "sound_type": "explosion",
+      "sound_variant": "default"
+    }
+  },
+  {
+    "id": "tr_landmine_buried",
+    "copy-from": "tr_landmine_buried",
+    "type": "trap",
+    "color": "red",
+    "trigger_weight": "200 g",
+    "name": "buried anti-personnel mine (PMN-1)",
+    "memorial_male": { "ctxt": "memorial_male", "str": "Stepped on a anti-personnel mine." },
+    "memorial_female": { "ctxt": "memorial_female", "str": "Stepped on a anti-personnel mine." },
+    "symbol": "_",
+    "visibility": 10,
+    "avoidance": 14,
+    "difficulty": 10,
+    "action": "landmine",
+    "drops": [ "landmine" ],
+    "flags": [ "SONAR_DETECTABLE" ],
+    "vehicle_data": {
+      "do_explosion": true,
+      "damage": 1000,
+      "shrapnel": 8,
+      "sound_volume": 10,
+      "sound": "Boom!",
+      "sound_type": "explosion",
+      "sound_variant": "default"
+    }
+  }
+]
