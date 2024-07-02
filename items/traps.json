@@ -10,7 +10,6 @@
     "price": "50 USD",
     "price_postapoc": "50 USD",
     "material": [ "steel", "plastic" ],
-    "color": "dark_gray",
     "use_action": {
       "type": "place_trap",
       "bury_question": "Bury the anti-personnel mine?",
