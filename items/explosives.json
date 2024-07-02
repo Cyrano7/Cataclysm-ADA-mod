@@ -52,5 +52,23 @@
     "price": "30 USD",
     "price_postapoc": "30 USD",
     "use_action": { "type": "message", "message": "You've already pulled the pin on this grenade, try throwing it instead.", "name": "Pull pin" }
+  },
+  {
+    "id": "grenade_inc",
+    "copy-from": "grenade_inc",
+    "type": "TOOL",
+    "name": { "str": "incendiary grenade (AN-M14)" },
+    "description": "A military-grade incendiary hand grenade.  Use this item to pull the pin and start the fuse.  You will then have five seconds before it explodes into a raging inferno; throwing it would be a good idea.",
+    "price": "20 USD",
+    "price_postapoc": "20 USD"
+  },
+  {
+    "id": "grenade_inc_act",
+    "copy-from": "grenade_inc_act",
+    "type": "TOOL",
+    "name": { "str": "incendiary grenade (AN-M14)" },
+    "description": "An active incendiary hand grenade, likely to burst into an inferno any second now.  Better throw it!",
+    "price": "20 USD",
+    "price_postapoc": "20 USD"
   }
 ]
