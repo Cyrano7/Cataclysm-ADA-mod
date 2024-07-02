@@ -1,0 +1,7 @@
+[
+  {
+    "id": "OLD_CURRENCY",
+    "type": "json_flag",
+    "info": "This item is legal tender outside the \"Zone\"."
+  }
+]
