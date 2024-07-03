@@ -19,7 +19,7 @@
   },
   {
     "id": "ppshdrum",
-    "looks_like": "mp5mag",
+    "copy-from": "ppshmag",
     "type": "MAGAZINE",
     "name": { "str": "PPSh 71-round drum magazine" },
     "description": "A high-capacity drum magazine for the PPSh-41.",
@@ -28,10 +28,6 @@
     "longest_side": "14 cm",
     "price": "70 USD",
     "price_postapoc": "5 USD",
-    "material": [ "steel" ],
-    "symbol": "#",
-    "color": "light_gray",
-    "ammo_type": [ "762x25" ],
     "reload_time": 190,
     "flags": [ "MAG_BULKY" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762x25": 71 } } ]
