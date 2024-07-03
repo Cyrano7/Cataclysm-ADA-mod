@@ -5,7 +5,6 @@
     "type": "GENERIC",
     "name": { "str": "penny", "str_pl": "pennies" },
     "description": "A US one-cent coin, featuring a portrait of Abraham Lincoln.  You could flip it.",
-    "price": "1 cent",
     "price_postapoc": "1 cent"
   },
   {
@@ -14,7 +13,6 @@
     "type": "GENERIC",
     "name": { "str": "nickel" },
     "description": "A US five-cent coin, featuring a portrait of Thomas Jefferson.  You could flip it.",
-    "price": "5 cent",
     "price_postapoc": "5 cent"
   },
   {
@@ -23,7 +21,6 @@
     "type": "GENERIC",
     "name": { "str": "dime" },
     "description": "A US ten-cent coin, featuring a portrait of Franklin D Roosevelt.  You could flip it.",
-    "price": "10 cent",
     "price_postapoc": "10 cent"
   },
   {
@@ -32,7 +29,6 @@
     "type": "GENERIC",
     "name": { "str": "quarter" },
     "description": "A US twenty-five-cent coin, featuring a portrait of George Washington.  You could flip it.",
-    "price": "25 cent",
     "price_postapoc": "25 cent"
   },
   {
@@ -41,7 +37,6 @@
     "type": "GENERIC",
     "name": { "str": "half-dollar coin" },
     "description": "A US fifty-cent coin, featuring a portrait of John F Kennedy.  You could flip it.",
-    "price": "50 cent",
     "price_postapoc": "50 cent"
   },
   {
@@ -50,7 +45,6 @@
     "type": "GENERIC",
     "name": { "str": "dollar coin" },
     "description": "A US one-dollar coin, featuring a portrait of Susan B Anthony.  You could flip it.",
-    "price": "1 USD",
     "price_postapoc": "1 USD"
   },
   {
@@ -77,7 +71,6 @@
     "type": "GENERIC",
     "name": { "str": "one-dollar bill" },
     "description": "A US one-dollar bill, featuring a portrait of George Washington.",
-    "price": "1 USD",
     "price_postapoc": "1 USD"
   },
   {
@@ -86,7 +79,6 @@
     "type": "GENERIC",
     "name": { "str": "two-dollar bill" },
     "description": "A US two-dollar bill, featuring a portrait of Thomas Jefferson.",
-    "price": "2 USD",
     "price_postapoc": "2 USD"
   },
   {
@@ -95,7 +87,6 @@
     "type": "GENERIC",
     "name": { "str": "five-dollar bill" },
     "description": "A US five-dollar bill, featuring a portrait of Abraham Lincoln.",
-    "price": "5 USD",
     "price_postapoc": "5 USD"
   },
   {
@@ -104,7 +95,6 @@
     "type": "GENERIC",
     "name": { "str": "ten-dollar bill" },
     "description": "A US ten-dollar bill, featuring a portrait of Alexander Hamilton.",
-    "price": "10 USD",
     "price_postapoc": "10 USD"
   },
   {
@@ -113,7 +103,6 @@
     "type": "GENERIC",
     "name": { "str": "twenty-dollar bill" },
     "description": "A US twenty-dollar bill, featuring a portrait of Andrew Jackson.",
-    "price": "20 USD",
     "price_postapoc": "20 USD"
   },
   {
@@ -122,7 +111,6 @@
     "type": "GENERIC",
     "name": { "str": "fifty-dollar bill" },
     "description": "A US fifty-dollar bill, featuring a portrait of Ulysses S Grant.",
-    "price": "50 USD",
     "price_postapoc": "50 USD"
   },
   {
@@ -131,7 +119,6 @@
     "type": "GENERIC",
     "name": { "str": "hundred-dollar bill" },
     "description": "A US hundred-dollar bill, featuring a portrait of Benjamin Franklin.",
-    "price": "100 USD",
     "price_postapoc": "100 USD"
   },
   {
@@ -140,7 +127,6 @@
     "type": "GENERIC",
     "name": { "str": "one-dollar currency strap" },
     "description": "A hundred US one-dollar bills held together by a paper currency strap.",
-    "price": "100 USD",
     "price_postapoc": "100 USD"
   },
   {
@@ -149,7 +135,6 @@
     "type": "GENERIC",
     "name": { "str": "two-dollar currency strap" },
     "description": "A hundred US two-dollar bills held together by a paper currency strap.",
-    "price": "200 USD",
     "price_postapoc": "200 USD"
   },
   {
@@ -158,7 +143,6 @@
     "type": "GENERIC",
     "name": { "str": "five-dollar currency strap" },
     "description": "A hundred US five-dollar bills held together by a paper currency strap.",
-    "price": "500 USD",
     "price_postapoc": "500 USD"
   },
   {
@@ -167,7 +151,6 @@
     "type": "GENERIC",
     "name": { "str": "ten-dollar currency strap" },
     "description": "A hundred US ten-dollar bills held together by a paper currency strap.",
-    "price": "1 kUSD",
     "price_postapoc": "1 kUSD"
   },
   {
@@ -176,7 +159,6 @@
     "type": "GENERIC",
     "name": { "str": "twenty-dollar currency strap" },
     "description": "A hundred US twenty-dollar bills held together by a paper currency strap.",
-    "price": "2 kUSD",
     "price_postapoc": "2 kUSD"
   },
   {
@@ -185,7 +167,6 @@
     "type": "GENERIC",
     "name": { "str": "fifty-dollar currency strap" },
     "description": "A hundred US fifty-dollar bills held together by a paper currency strap.",
-    "price": "5 kUSD",
     "price_postapoc": "5 kUSD"
   },
   {
@@ -194,7 +175,6 @@
     "type": "GENERIC",
     "name": { "str": "hundred-dollar currency strap" },
     "description": "A hundred US hundred-dollar bills held together by a paper currency strap.",
-    "price": "10 kUSD",
     "price_postapoc": "10 kUSD"
   },
   {
@@ -203,7 +183,6 @@
     "type": "GENERIC",
     "name": { "str": "one-dollar currency bundle" },
     "description": "A thousand US one-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
-    "price": "1 kUSD",
     "price_postapoc": "1 kUSD"
   },
   {
@@ -212,7 +191,6 @@
     "type": "GENERIC",
     "name": { "str": "two-dollar currency bundle" },
     "description": "A thousand US two-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
-    "price": "2 kUSD",
     "price_postapoc": "2 kUSD"
   },
   {
@@ -221,7 +199,6 @@
     "type": "GENERIC",
     "name": { "str": "five-dollar currency bundle" },
     "description": "A thousand US five-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
-    "price": "5 kUSD",
     "price_postapoc": "5 kUSD"
   },
   {
@@ -230,7 +207,6 @@
     "type": "GENERIC",
     "name": { "str": "ten-dollar currency bundle" },
     "description": "A thousand US ten-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
-    "price": "10 kUSD",
     "price_postapoc": "10 kUSD"
   },
   {
@@ -239,7 +215,6 @@
     "type": "GENERIC",
     "name": { "str": "twenty-dollar currency bundle" },
     "description": "A thousand US twenty-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
-    "price": "20 kUSD",
     "price_postapoc": "20 kUSD"
   },
   {
@@ -248,7 +223,6 @@
     "type": "GENERIC",
     "name": { "str": "fifty-dollar currency bundle" },
     "description": "A thousand US fifty-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
-    "price": "50 kUSD",
     "price_postapoc": "50 kUSD"
   },
   {
@@ -257,7 +231,6 @@
     "type": "GENERIC",
     "name": { "str": "hundred-dollar currency bundle" },
     "description": "A thousand US hundred-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
-    "price": "100 kUSD",
     "price_postapoc": "100 kUSD"
   }
 ]
