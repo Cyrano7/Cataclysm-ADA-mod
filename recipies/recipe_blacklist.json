@@ -1,5 +1,16 @@
 [
   {
+    "result": "smokebomb",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "smokebomb",
+    "id_suffix": "with_white_phosphorous",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
     "result": "flashbang",
     "type": "recipe",
     "obsolete": true
