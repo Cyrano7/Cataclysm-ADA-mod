@@ -3,8 +3,10 @@
     "type": "SCENARIO_BLACKLIST",
     "subtype": "blacklist",
     "scenarios": [
+      "BastionFortStart",
       "foodplace",
       "golden_years",
+      "medieval",
       "migo_prisoner"
     ]
   }
