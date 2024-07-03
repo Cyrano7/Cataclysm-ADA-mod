@@ -182,7 +182,7 @@
     "copy-from": "money_bundle_one",
     "type": "GENERIC",
     "name": { "str": "one-dollar currency bundle" },
-    "description": "A thousand US one-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
+    "description": "A thousand US one-dollar bills, divided evenly between ten paper currency straps, and bundled together with string or rubber bands.",
     "price_postapoc": "1 kUSD"
   },
   {
@@ -190,7 +190,7 @@
     "copy-from": "money_bundle_two",
     "type": "GENERIC",
     "name": { "str": "two-dollar currency bundle" },
-    "description": "A thousand US two-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
+    "description": "A thousand US two-dollar bills, divided evenly between ten paper currency straps, and bundled together with string or rubber bands.",
     "price_postapoc": "2 kUSD"
   },
   {
@@ -198,7 +198,7 @@
     "copy-from": "money_bundle_five",
     "type": "GENERIC",
     "name": { "str": "five-dollar currency bundle" },
-    "description": "A thousand US five-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
+    "description": "A thousand US five-dollar bills, divided evenly between ten paper currency straps, and bundled together with string or rubber bands.",
     "price_postapoc": "5 kUSD"
   },
   {
@@ -206,7 +206,7 @@
     "copy-from": "money_bundle_ten",
     "type": "GENERIC",
     "name": { "str": "ten-dollar currency bundle" },
-    "description": "A thousand US ten-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
+    "description": "A thousand US ten-dollar bills, divided evenly between ten paper currency straps, and bundled together with string or rubber bands.",
     "price_postapoc": "10 kUSD"
   },
   {
@@ -214,7 +214,7 @@
     "copy-from": "money_bundle_twenty",
     "type": "GENERIC",
     "name": { "str": "twenty-dollar currency bundle" },
-    "description": "A thousand US twenty-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
+    "description": "A thousand US twenty-dollar bills, divided evenly between ten paper currency straps, and bundled together with string or rubber bands.",
     "price_postapoc": "20 kUSD"
   },
   {
@@ -222,7 +222,7 @@
     "copy-from": "money_bundle_fifty",
     "type": "GENERIC",
     "name": { "str": "fifty-dollar currency bundle" },
-    "description": "A thousand US fifty-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
+    "description": "A thousand US fifty-dollar bills, divided evenly between ten paper currency straps, and bundled together with string or rubber bands.",
     "price_postapoc": "50 kUSD"
   },
   {
@@ -230,7 +230,7 @@
     "copy-from": "money_bundle_hundred",
     "type": "GENERIC",
     "name": { "str": "hundred-dollar currency bundle" },
-    "description": "A thousand US hundred-dollar bills, divided evenly between ten currency straps, and bundled together with string or rubber bands.",
+    "description": "A thousand US hundred-dollar bills, divided evenly between ten paper currency straps, and bundled together with string or rubber bands.",
     "price_postapoc": "100 kUSD"
   }
 ]
