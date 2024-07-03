@@ -1,0 +1,34 @@
+[
+  {
+    "id": "driving_license",
+    "copy-from": "driving_license",
+    "type": "profession",
+    "subtype": "hobby", 
+    "name": "Driving License",
+    "description": "You got your driving license in your home country and know how to drive a car, change the oil and tires, and other basics."
+  },
+  {
+    "id": "swimming_beginner",
+    "copy-from": "swimming_beginner",
+    "type": "profession",
+    "subtype": "hobby",
+    "name": "Swimming (Beginner)",
+    "description": "You can swim.  Probably not very well, and you won't break any speed records, but, you CAN swim."
+  },
+  {
+    "id": "swimming",
+    "copy-from": "swimming",
+    "type": "profession",
+    "subtype": "hobby",
+    "name": "Swimming (Intermediate)",
+    "description": "You're a strong swimmer.  You can't swim forever, but it's certainly an advantage over the average person."
+  },
+  {
+    "id": "swimming_expert",
+    "copy-from": "swimming_expert",
+    "type": "profession",
+    "subtype": "hobby",
+    "name": "Swimming (Expert)",
+    "description": "You're an excellent swimmer.  Plus, all that swimming has left you in great shape."
+  }
+]
