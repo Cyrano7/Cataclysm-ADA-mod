@@ -52,7 +52,7 @@
     "copy-from": "coin_silver",
     "type": "GENERIC",
     "name": { "str": "Silver Eagle coin" },
-    "description": "The official US silver bullion coin of the United States, it has a nominal face value of one dollar and is guaranteed to contain one troy ounce of 99.9% pure silver.",
+    "description": "The official silver bullion coin of the United States, it has a nominal face value of one dollar and is guaranteed to contain one troy ounce of 99.9% pure silver.",
     "price": "23 USD",
     "price_postapoc": "23 USD"
   },
@@ -61,7 +61,7 @@
     "copy-from": "coin_gold",
     "type": "GENERIC",
     "name": { "str": "American Buffalo coin" },
-    "description": "The official US 24-karat bullion coin of the United States, it has a nominal face value of fifty dollars and is guaranteed to contain one troy ounce of 99.99% pure gold.",
+    "description": "The official 24-karat bullion coin of the United States, it has a nominal face value of fifty dollars and is guaranteed to contain one troy ounce of 99.99% pure gold.",
     "price": "1 kUSD 750 USD",
     "price_postapoc": "1 kUSD 750 USD"
   },
