@@ -1,7 +1,7 @@
 [
   {
     "id": "ppshmag",
-    "looks_like": "mp5mag",
+    "copy-from": "thompson_bigmag",
     "type": "MAGAZINE",
     "name": { "str": "PPSh 35-round magazine" },
     "description": "A 35-round box magazine for the PPSh-41.",
@@ -10,11 +10,7 @@
     "longest_side": "230 mm",
     "price": "22 USD",
     "price_postapoc": "2 USD 50 cent",
-    "material": [ "steel" ],
-    "symbol": "#",
-    "color": "light_gray",
     "ammo_type": [ "762x25" ],
-    "flags": [ "MAG_COMPACT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762x25": 35 } } ]
   },
   {
@@ -22,7 +18,7 @@
     "copy-from": "ppshmag",
     "type": "MAGAZINE",
     "name": { "str": "PPSh 71-round drum magazine" },
-    "description": "A high-capacity drum magazine for the PPSh-41.",
+    "description": "A 71-round drum magazine for the PPSh-41.",
     "weight": "1760 g",
     "volume": "911 ml",
     "longest_side": "14 cm",
