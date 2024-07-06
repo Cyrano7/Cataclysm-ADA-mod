@@ -1,0 +1,9 @@
+[
+  {
+    "type": "MONSTER_BLACKLIST",
+    "monsters": [
+      "mon_opossum",
+      "mon_skunk"
+    ]
+  }
+]
