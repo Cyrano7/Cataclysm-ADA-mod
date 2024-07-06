@@ -44,5 +44,135 @@
     "result": "drink_hobo",
     "type": "recipe",
     "obsolete": true
+  },
+  {
+    "result": "helmet_aztec",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "helmet_kabuto",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "helmet_kabuto_xs",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "xl_helmet_kabuto",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "armor_samurai",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "kimono",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "yukata",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "wearable_rx12",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "maid_hat",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "maid_hat_xs",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "maid_hat_xl",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "maid_dress",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "maid_dress_xs",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "maid_dress_xl",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "maid_dress_short",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "maid_dress_short_xs",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "maid_dress_short_xl",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "leather_cat_ears",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "fur_cat_ears",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "faux_fur_cat_ears",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "leather_cat_tail",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "fur_cat_tail",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "faux_fur_cat_tail",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "leather_collar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "fur_collar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "faux_fur_collar",
+    "type": "recipe",
+    "obsolete": true
   }
 ]
