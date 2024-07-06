@@ -8,6 +8,14 @@
     "description": "You got your driving license in your home country and know how to drive a car, change the oil and tires, and other basics."
   },
   {
+    "id": "high_school_graduate",
+    "copy-from": "high_school_graduate",
+    "type": "profession",
+    "subtype": "hobby",
+    "name": "Secondary School Graduate",
+    "description": "You've graduated from secondary school and thus know a little bit about applied science and electronics."
+  },
+  {
     "id": "swimming_beginner",
     "copy-from": "swimming_beginner",
     "type": "profession",
