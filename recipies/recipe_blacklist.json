@@ -1,5 +1,16 @@
 [
   {
+    "id": "nested_helmet_corinthian",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+    "name": "Corinthian helms",
+    "description": "Recipes related to constructing various sizes of helmets made out of bronze in the Ancient Greek Corinthian style.",
+    "skill_used": "fabrication",
+    "nested_category_data": []
+  },
+  {
     "result": "smokebomb",
     "type": "recipe",
     "obsolete": true
@@ -46,7 +57,97 @@
     "obsolete": true
   },
   {
+    "result": "mycus_juice",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "brew_mycus_wine",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "brew_marloss_wine",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
     "result": "helmet_aztec",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "armor_aztec",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "helmet_corinthian",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "helmet_corinthian_xs",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "xl_helmet_corinthian",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "armor_cuirass",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "xs_armor_cuirass",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "xl_armor_cuirass",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "sword_xiphos",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "spear_dory",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "helmet_galea",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "helmet_galea_xs",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "xl_helmet_galea",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "armor_lorica",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "xs_armor_lorica",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "xl_armor_lorica",
     "type": "recipe",
     "obsolete": true
   },
@@ -71,12 +172,27 @@
     "obsolete": true
   },
   {
+    "result": "haori",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
     "result": "kimono",
     "type": "recipe",
     "obsolete": true
   },
   {
     "result": "yukata",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "bellyband",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "hakama",
     "type": "recipe",
     "obsolete": true
   },
