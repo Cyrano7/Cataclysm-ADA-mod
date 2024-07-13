@@ -3,7 +3,7 @@
     "id": "landmine",
     "copy-from": "landmine",
     "type": "TOOL",
-    "name": { "str": "anti-personnel mine(PMN-1)", "str_pl": "anti-personnel mines(PMN-1)" },
+    "name": { "str": "PMN-1 anti-personnel mine" },
     "description": "A military anti-personnel fragmentation mine that is triggered when stepped on.",
     "weight": "600 g",
     "volume": "562 ml",
