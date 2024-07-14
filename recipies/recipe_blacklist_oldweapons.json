@@ -105,5 +105,15 @@
     "result": "butterfly_swords",
     "type": "recipe",
     "obsolete": true
+  },
+  {
+    "result": "sword_xiphos",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "spear_dory",
+    "type": "recipe",
+    "obsolete": true
   }
 ]
