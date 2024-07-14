@@ -21,6 +21,11 @@
     "obsolete": true
   },
   {
+    "result": "telepad",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
     "result": "money_strap_FMCNote",
     "type": "recipe",
     "obsolete": true
