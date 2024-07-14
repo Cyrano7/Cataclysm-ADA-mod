@@ -72,6 +72,11 @@
     "obsolete": true
   },
   {
+    "result": "tricorne",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
     "result": "helmet_aztec",
     "type": "recipe",
     "obsolete": true
@@ -202,6 +207,21 @@
     "obsolete": true
   },
   {
+    "result": "binder_top",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "xs_binder_top",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "xl_binder_top",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
     "result": "maid_hat",
     "type": "recipe",
     "obsolete": true
@@ -243,6 +263,42 @@
   },
   {
     "result": "maid_dress_short_xl",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "apron_cotton_xs",
+    "variant": "maid_apron_xs",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "apron_cotton_xl",
+    "variant": "maid_apron_xl",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "waist_apron_short_xs",
+    "variant": "maid_apron_xs",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "waist_apron_short_xl",
+    "variant": "maid_apron_xl",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "waist_apron_long_xs",
+    "variant": "maid_apron_xs",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "waist_apron_long_xl",
+    "variant": "maid_apron_xl",
     "type": "recipe",
     "obsolete": true
   },
