@@ -22,6 +22,39 @@
     "nested_category_data": []
   },
   {
+    "id": "nested_falx",
+    "type": "nested_category",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "name": "falxes",
+    "description": "Recipes for making falxes.",
+    "skill_used": "fabrication",
+    "nested_category_data": []
+  },
+  {
+    "id": "nested_jian",
+    "type": "nested_category",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "name": "jian",
+    "description": "Recipes for making jian.",
+    "skill_used": "fabrication",
+    "nested_category_data": []
+  },
+  {
+    "id": "nested_kilij",
+    "type": "nested_category",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "name": "kilijes",
+    "description": "Recipes for making kilijes.",
+    "skill_used": "fabrication",
+    "nested_category_data": []
+  },
+  {
     "result": "lc_talwar",
     "type": "recipe",
     "obsolete": true
@@ -68,6 +101,81 @@
   },
   {
     "result": "qt_scimitar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "lc_falx",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "mc_falx",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "hc_falx",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "ch_falx",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "qt_falx",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "lc_jian",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "mc_jian",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "hc_jian",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "ch_jian",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "qt_jian",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "lc_kilij",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "mc_kilij",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "hc_kilij",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "ch_kilij",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "qt_kilij",
     "type": "recipe",
     "obsolete": true
   },
