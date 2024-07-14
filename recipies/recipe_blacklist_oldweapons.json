@@ -1,0 +1,109 @@
+[
+  {
+    "id": "nested_talwar",
+    "type": "nested_category",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "name": "talwars",
+    "description": "Recipes for making talwars.",
+    "skill_used": "fabrication",
+    "nested_category_data": []
+  },
+  {
+    "id": "nested_scimitar",
+    "type": "nested_category",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "name": "shamshirs",
+    "description": "Recipes for making shamshirs.",
+    "skill_used": "fabrication",
+    "nested_category_data": []
+  },
+  {
+    "result": "lc_talwar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "mc_talwar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "hc_talwar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "ch_talwar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "qt_talwar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "lc_scimitar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "mc_scimitar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "hc_scimitar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "ch_scimitar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "qt_scimitar",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "khopesh",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "kirpan",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "dao",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "lajatang",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "qiang",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "ji",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "butterfly_swords",
+    "type": "recipe",
+    "obsolete": true
+  }
+]
