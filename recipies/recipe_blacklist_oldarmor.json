@@ -129,5 +129,10 @@
     "result": "hakama",
     "type": "recipe",
     "obsolete": true
+  },
+  {
+    "result": "geta",
+    "type": "recipe",
+    "obsolete": true
   }
 ]
