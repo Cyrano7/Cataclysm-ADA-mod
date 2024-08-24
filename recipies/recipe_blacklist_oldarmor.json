@@ -11,21 +11,6 @@
     "nested_category_data": []
   },
   {
-    "result": "tricorne",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
-    "result": "helmet_aztec",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
-    "result": "armor_aztec",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
     "result": "helmet_corinthian",
     "type": "recipe",
     "obsolete": true
@@ -37,6 +22,21 @@
   },
   {
     "result": "xl_helmet_corinthian",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "tricorne",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "helmet_aztec",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "armor_aztec",
     "type": "recipe",
     "obsolete": true
   },
