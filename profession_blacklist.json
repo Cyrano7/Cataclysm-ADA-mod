@@ -20,6 +20,7 @@
       "football_player",
       "frat",
       "groundskeeper",
+      "gunslinger",
       "gym_teacher",
       "hitchhiker",
       "jdelinquent",
@@ -34,6 +35,7 @@
       "patriot",
       "pizzaboy",
       "postman",
+      "prepped_patriot",
       "professional_swimmer",
       "reenactor",
       "reenactor2",
@@ -41,6 +43,7 @@
       "salesman",
       "science_club_mem",
       "shinto_priest",
+      "skaboy",
       "spouse",
       "student",
       "surfer",
@@ -49,6 +52,7 @@
       "tourist",
       "tourist_swimmer",
       "true_foodperson",
+      "urban_samurai",
       "zoo_keeper"
     ]
   }
