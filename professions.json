@@ -5,5 +5,71 @@
     "type": "profession",
     "name": "Naked and Afraid",
     "description": "You are completely naked!  Maybe you were robbed, or maybe you just enjoy the feeling of liberation brought by the wind touching your skin.  Whatever the reason, your lack of clothes or equipment in a place this inhospitable might be a problem."
+  },
+  {
+    "id": "unemployed",
+    "copy-from": "unemployed",
+    "type": "profession",
+    "name": "S.T.A.L.K.E.R.",
+    "description": "Some would say that there's nothing particularly notable about you, but you've survived, and that's more than most could say right now.",
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "bandana" },
+          { "item": "longshirt" },
+          { "item": "hoodie" },
+          { "item": "jeans" },
+          { "item": "socks" },
+          { "item": "sneakers" },
+          { "item": "mbag" },
+          { "item": "pockknife" },
+          { "item": "water_clean" },
+          { "item": "wristwatch" },
+          { "group": "charged_smart_phone" },
+          { "group": "starter_wallet_full" },
+          { "group": "charged_matches" }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
+    }
+  },
+  {
+    "id": "scoundrel",
+    "copy-from": "scoundrel",
+    "type": "profession",
+    "name": "Robber",
+    "description": "Your flexible outlook on the law, the scuffles you've been in (and avoided) at the bar, and your impressive ability to weasel your way out of the consequences of your actions - all these skills have helped ensure your survival.  How much longer will they hold out?",
+    "proficiencies": [ "prof_lockpicking", "prof_knives_familiar", "prof_unarmed_familiar" ],
+    "skills": [
+      { "level": 3, "name": "melee" },
+      { "level": 3, "name": "stabbing" },
+      { "level": 3, "name": "unarmed" },
+      { "level": 3, "name": "dodge" },
+      { "level": 3, "name": "traps" },
+      { "level": 3, "name": "speech" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "balclava" },
+          { "item": "tank_top" },
+          { "item": "trenchcoat_leather" },
+          { "item": "jeans" },
+          { "item": "socks" },
+          { "item": "sneakers" },
+          { "group": "rolling_cigs" },
+          { "item": "water_clean" },
+          { "item": "switchblade" },
+          { "item": "wristwatch" },
+          { "item": "picklocks" },
+          { "group": "charged_smart_phone" },
+          { "group": "starter_wallet_full" },
+          { "item": "lighter", "charges": 100 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_briefs" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    }
   }
 ]

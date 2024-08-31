@@ -11,6 +11,6 @@
     "name": "GENERIC_PROFESSION_ID",
     "info": "The profession selected by default in the character creator menu.",
     "stype": "string_input",
-    "value": "naked"
+    "value": "unemployed"
   }
 ]
