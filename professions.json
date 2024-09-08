@@ -29,10 +29,9 @@
           { "item": "socks" },
           { "item": "sneakers" },
           { "item": "mbag" },
-          { "item": "wristwatch" },
           { "item": "pockknife" },
           { "item": "water_clean" },
-          { "item": "matches", "charges": [ 15, 20 ] },
+          { "item": "matches", "charges": [ 17, 20 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
@@ -48,25 +47,25 @@
     "//": "passive explorer type",
     "description": "This could be your lucky break.  Plenty of loot to be pilfered, and no cops to be seen.  Does it count as breaking and entering if everyone in town is undead?",
     "points": 2,
-    "proficiencies": [ "prof_lockpicking" ],
-    "skills": [ { "level": 6, "name": "traps" }, { "level": 2, "name": "dodge" } ],
+    "skills": [ { "level": 4, "name": "traps" }, { "level": 3, "name": "swimming" } ],
     "items": {
       "both": {
         "entries": [
-          { "item": "mask_ski" },         
-          { "item": "longshirt" },
+          { "item": "bandana" },
+          { "item": "tshirt" },
           { "item": "hoodie" },
-          { "item": "gloves_light" },
+          { "item": "gloves_work" },
           { "item": "pants", "variant": "pants_black" },
           { "item": "leather_belt" },
           { "item": "socks" },
-          { "item": "sneakers" },
-          { "item": "swag_bag" },
+          { "item": "boots_steel" },
+          { "item": "backpack" },
           { "item": "wristwatch" },
-          { "item": "picklocks" },
+          { "item": "crowbar", "custom-flags": [ "auto_wield" ] },
           { "item": "multitool" },
           { "item": "water_clean" },
-          { "item": "small_lighter", "charges": [ 30, 50 ] },
+          { "item": "water_clean" },
+          { "item": "lighter", "charges": [ 30, 40 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
@@ -82,28 +81,28 @@
     "//": "aggressive explorer type",
     "description": "You've always admired the beauty of urban desolation, and were ready for your next excursion when the end of the world hit.  You suppose that pretty much every building could be considered abandoned now.",
     "points": 2,
-    "skills": [ { "level": 4, "name": "traps" }, { "level": 3, "name": "swimming" } ],
+    "proficiencies": [ "prof_lockpicking" ],
+    "skills": [ { "level": 6, "name": "traps" }, { "level": 2, "name": "dodge" } ],
     "items": {
       "both": {
         "entries": [
-          { "item": "bandana" },
+          { "item": "mask_ski" },
           { "item": "tshirt" },
           { "item": "hoodie" },
-          { "item": "gloves_work" },
+          { "item": "gloves_light" },
           { "item": "pants", "variant": "pants_black_camo" },
           { "item": "leather_belt" },
           { "item": "socks" },
-          { "item": "boots" },
+          { "item": "sneakers" },
           { "item": "camera_bag" },
           { "item": "slingpack" },
           { "item": "wristwatch" },
-          { "item": "urbexmap" },
-          { "item": "camera_pro", "charges": 300 },
           { "item": "light_battery_cell", "ammo-item": "battery", "charges": 300, "container-item": "wearable_light" },
-          { "item": "crowbar" },
+          { "item": "picklocks" },
           { "item": "knife_folding" },
           { "item": "water_clean" },
-          { "item": "lighter", "charges": [ 30, 50 ] },
+          { "item": "water_clean" },
+          { "item": "small_lighter", "charges": [ 30, 40 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
@@ -123,16 +122,16 @@
     "items": {
       "both": {
         "entries": [
+          { "item": "knit_scarf" },
           { "item": "tshirt", "variant": "generic_tshirt" },
-          { "item": "backpack_hiking" },
           { "item": "jeans" },
           { "item": "socks" },
           { "item": "boots_hiking" },
-          { "item": "knit_scarf" },
+          { "item": "backpack_hiking" },
           { "item": "wristwatch" },
           { "item": "fun_survival" },
-          { "item": "water_clean" },
-          { "item": "lighter", "charges": [ 30, 50 ] },
+          { "item": "water_clean", "charges": 4,"container-item": "canteen" },
+          { "item": "survival_match", "count": [ 30, 40 ], "container-item": "null", "entry-wrapper": "bag_zipper" },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
@@ -154,6 +153,7 @@
     "items": {
       "both": {
         "entries": [
+          { "item": "glasses_safety" },
           { "item": "mask_dust", "variant": "white_mask_dust" },
           { "item": "tshirt" },
           { "item": "technician_coveralls" },
@@ -161,7 +161,6 @@
           { "item": "tool_belt" },
           { "item": "socks" },
           { "item": "boots_rubber" },
-          { "item": "glasses_safety" },
           { "item": "camera_bag" },
           { "group": "charged_flashlight" },
           {
@@ -175,7 +174,8 @@
           { "item": "emf_detector", "charges": 100 },
           { "item": "boxcutter" },
           { "item": "water_clean" },
-          { "item": "survival_match", "count": [ 15, 20 ], "container-item": "null", "entry-wrapper": "bag_zipper" },
+          { "item": "water_clean" },
+          { "item": "ref_matches", "charges": [ 30, 32 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
@@ -213,7 +213,8 @@
           { "item": "light_battery_cell", "ammo-item": "battery", "charges": 300, "container-item": "wearable_light" },
           { "item": "knife_folding" },
           { "item": "water_clean" },
-          { "item": "lighter", "charges": [ 30, 50 ] },
+          { "item": "water_clean" },
+          { "item": "ref_matches", "charges": [ 30, 32 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
@@ -229,7 +230,7 @@
     "//": "aggressive combat type",
     "points": 2,
     "description": "Your flexible outlook on the law, the scuffles you've been in (and avoided) at the bar, and your impressive ability to weasel your way out of the consequences of your actions - all these skills have helped ensure your survival.  How much longer will they hold out?",
-    "proficiencies": [ "prof_lockpicking", "prof_knives_familiar", "prof_unarmed_familiar" ],
+    "proficiencies": [ "prof_knives_familiar", "prof_unarmed_familiar" ],
     "skills": [
       { "level": 3, "name": "melee" },
       { "level": 3, "name": "stabbing" },
@@ -250,13 +251,14 @@
           { "item": "wristwatch" },
           { "item": "switchblade" },
           { "item": "water_clean" },
-          { "item": "ref_lighter", "charges": [ 30, 50 ] },
+          { "item": "water_clean" },
+          { "item": "ref_lighter", "charges": [ 30, 40 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
       },
-      "male": { "entries": [ { "item": "boxer_shorts", "variant": "generic_boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts", "variant": "generic_boxer_shorts" } ] }
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
     }
   },
   {
@@ -266,7 +268,7 @@
     "//": "aggressive combat type",
     "points": 2,
     "description": "Your flexible outlook on the law, the scuffles you've been in (and avoided) at the bar, and your impressive ability to weasel your way out of the consequences of your actions - all these skills have helped ensure your survival.  How much longer will they hold out?",
-    "proficiencies": [ "prof_lockpicking", "prof_knives_familiar", "prof_unarmed_familiar" ],
+    "proficiencies": [ "prof_knives_familiar", "prof_unarmed_familiar" ],
     "traits": [ "PSYCHOPATH" ],
     "skills": [
       { "level": 3, "name": "melee" },
@@ -288,7 +290,8 @@
           { "item": "wristwatch" },
           { "item": "switchblade" },
           { "item": "water_clean" },
-          { "item": "ref_lighter", "charges": [ 30, 50 ] },
+          { "item": "water_clean" },
+          { "item": "ref_lighter", "charges": [ 30, 40 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
