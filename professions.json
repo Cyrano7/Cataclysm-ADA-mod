@@ -6,6 +6,12 @@
     "entries": [ { "item": "smart_phone", "ammo-item": "battery", "charges": [ 45, 56 ] } ]
   },
   {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "charged_flashlight",
+    "entries": [ { "item": "flashlight", "charges": [ 45, 56 ] } ]
+  },
+  {
     "id": "naked",
     "copy-from": "naked",
     "type": "profession",
@@ -51,17 +57,19 @@
     "items": {
       "both": {
         "entries": [
+          { "item": "hat_ball" },
           { "item": "bandana" },
-          { "item": "tshirt" },
-          { "item": "hoodie" },
+          { "item": "longshirt" },
+          { "item": "jacket_windbreaker" },
           { "item": "gloves_work" },
-          { "item": "pants", "variant": "pants_black" },
+          { "item": "pants_cargo" },
           { "item": "leather_belt" },
           { "item": "socks" },
           { "item": "boots_steel" },
           { "item": "backpack" },
-          { "item": "wristwatch" },
           { "item": "crowbar", "custom-flags": [ "auto_wield" ] },
+          { "group": "charged_flashlight" },
+          { "item": "wristwatch" },
           { "item": "multitool" },
           { "item": "water_clean" },
           { "item": "water_clean" },
@@ -87,19 +95,18 @@
       "both": {
         "entries": [
           { "item": "mask_ski" },
-          { "item": "tshirt" },
-          { "item": "hoodie" },
+          { "item": "under_armor" },
+          { "item": "hoodie", "variant": "hoodie_black" },
           { "item": "gloves_light" },
-          { "item": "pants", "variant": "pants_black_camo" },
+          { "item": "pants", "variant": "pants_black" },
           { "item": "leather_belt" },
           { "item": "socks" },
           { "item": "sneakers" },
-          { "item": "camera_bag" },
-          { "item": "slingpack" },
-          { "item": "wristwatch" },
-          { "item": "light_battery_cell", "ammo-item": "battery", "charges": 300, "container-item": "wearable_light" },
+          { "item": "runner_bag" },
           { "item": "picklocks" },
-          { "item": "knife_folding" },
+          { "item": "light_battery_cell", "ammo-item": "battery", "charges": 300, "container-item": "wearable_light" },
+          { "item": "wristwatch" },
+          { "item": "utility_knife_folding" },
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "small_lighter", "charges": [ 30, 40 ] },
@@ -122,14 +129,18 @@
     "items": {
       "both": {
         "entries": [
-          { "item": "knit_scarf" },
-          { "item": "tshirt", "variant": "generic_tshirt" },
+          { "item": "hat_knit" },
+          { "item": "bandana" },
+          { "item": "longshirt" },
+          { "item": "jacket_light" },
+          { "item": "gloves_liner" },
           { "item": "jeans" },
           { "item": "socks" },
           { "item": "boots_hiking" },
           { "item": "backpack_hiking" },
+          { "group": "charged_flashlight" },
           { "item": "wristwatch" },
-          { "item": "fun_survival" },
+          { "item": "sheath", "contents-item": "knife_hunting" },
           { "item": "water_clean", "charges": 4,"container-item": "canteen" },
           { "item": "survival_match", "count": [ 30, 40 ], "container-item": "null", "entry-wrapper": "bag_zipper" },
           { "group": "charged_smart_phone" },
@@ -155,24 +166,17 @@
         "entries": [
           { "item": "glasses_safety" },
           { "item": "mask_dust", "variant": "white_mask_dust" },
-          { "item": "tshirt" },
           { "item": "technician_coveralls" },
           { "item": "gloves_rubber" },
           { "item": "tool_belt" },
           { "item": "socks" },
           { "item": "boots_rubber" },
           { "item": "camera_bag" },
+          { "item": "slingpack" },
+          { "item": "geiger_off", "charges": 100 },
           { "group": "charged_flashlight" },
-          {
-            "item": "light_minus_battery_cell",
-            "ammo-item": "battery",
-            "charges": 50,
-            "container-item": "rad_monitor"
-          },
-          { "item": "light_battery_cell", "ammo-item": "battery", "charges": 100, "container-item": "radio" },
-          { "item": "camera_pro", "charges": 300 },
-          { "item": "emf_detector", "charges": 100 },
-          { "item": "boxcutter" },
+          { "item": "diving_watch" },
+          { "item": "knife_swissarmy" },
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "ref_matches", "charges": [ 30, 32 ] },
@@ -180,8 +184,8 @@
           { "group": "starter_wallet_full" }
         ]
       },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
+      "male": { "entries": [ { "item": "briefs" }, { "item": "undershirt" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "panties" }, { "item": "camisole" } ] }
     }
   },
   {
@@ -192,25 +196,21 @@
     "description": "You've always admired the beauty of urban desolation, and were ready for your next excursion when the end of the world hit.  You suppose that pretty much every building could be considered abandoned now.",
     "points": 2,
     "skills": [ { "level": 4, "name": "traps" }, { "level": 3, "name": "swimming" } ],
-    "proficiencies": [ "prof_lockpicking" ],
     "items": {
       "both": {
         "entries": [
+          { "item": "hat_ball" },
           { "item": "bandana" },
           { "item": "tshirt" },
           { "item": "hoodie" },
           { "item": "gloves_fingerless" },
-          { "item": "pants", "variant": "pants_black_camo" },
+          { "item": "pants", "variant": "pants_urban" },
           { "item": "leather_belt" },
           { "item": "socks" },
           { "item": "boots_combat" },
-          { "item": "camera_bag" },
           { "item": "slingpack" },
-          { "item": "wristwatch" },
-          { "item": "crowbar" },
-          { "item": "urbexmap" },
-          { "item": "camera_pro", "charges": 300 },
           { "item": "light_battery_cell", "ammo-item": "battery", "charges": 300, "container-item": "wearable_light" },
+          { "item": "wristwatch" },
           { "item": "knife_folding" },
           { "item": "water_clean" },
           { "item": "water_clean" },
@@ -248,6 +248,7 @@
           { "item": "jeans" },
           { "item": "socks" },
           { "item": "sneakers" },
+          { "group": "charged_flashlight" },
           { "item": "wristwatch" },
           { "item": "switchblade" },
           { "item": "water_clean" },
@@ -257,8 +258,8 @@
           { "group": "starter_wallet_full" }
         ]
       },
-      "male": { "entries": [ { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+      "male": { "entries": [ { "item": "boxer_shorts", "variant": "boxer_shorts_money" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts", "variant": "boxer_shorts_money" } ] }
     }
   },
   {
@@ -269,7 +270,6 @@
     "points": 2,
     "description": "Your flexible outlook on the law, the scuffles you've been in (and avoided) at the bar, and your impressive ability to weasel your way out of the consequences of your actions - all these skills have helped ensure your survival.  How much longer will they hold out?",
     "proficiencies": [ "prof_knives_familiar", "prof_unarmed_familiar" ],
-    "traits": [ "PSYCHOPATH" ],
     "skills": [
       { "level": 3, "name": "melee" },
       { "level": 3, "name": "stabbing" },
@@ -287,8 +287,9 @@
           { "item": "jeans" },
           { "item": "socks" },
           { "item": "sneakers" },
+          { "group": "charged_flashlight" },
           { "item": "wristwatch" },
-          { "item": "switchblade" },
+          { "item": "sheath", "contents-item": "knife_trench" },
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "ref_lighter", "charges": [ 30, 40 ] },
