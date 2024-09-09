@@ -3,6 +3,9 @@
     "type": "ITEM_BLACKLIST",
     "whitelist": false,
     "items": [
+      "drink_strawberry_surprise",
+      "drink_boozeberry",
+      "drink_hobo",
       "2_shot_special",
       "revolver_shotgun",
       "bigun",
