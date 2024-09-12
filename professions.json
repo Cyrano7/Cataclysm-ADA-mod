@@ -1,15 +1,26 @@
 [
   {
+    "id": "charged_smart_phone",
     "type": "item_group",
     "subtype": "collection",
-    "id": "charged_smart_phone",
     "entries": [ { "item": "smart_phone", "ammo-item": "battery", "charges": [ 45, 56 ] } ]
   },
   {
+    "id": "charged_flashlight",
     "type": "item_group",
     "subtype": "collection",
-    "id": "charged_flashlight",
     "entries": [ { "item": "flashlight", "charges": [ 45, 56 ] } ]
+  },
+  {
+    "id": "starter_wallet_full",
+    "type": "item_group",
+    "subtype": "collection",
+    "container-item": "wallet",
+    "items": [
+      { "item": "cash_card", "prob": 100, "charges": [ 0, 1000 ] },
+      { "group": "banknotes", "prob": 100, "count": [ 5, 10 ] },
+      { "group": "coins", "prob": 80, "count": [ 1, 5 ] }
+    ]
   },
   {
     "id": "naked",
@@ -37,6 +48,7 @@
           { "item": "mbag" },
           { "item": "pockknife" },
           { "item": "water_clean" },
+          { "item": "adhesive_bandages", "count": 1 },
           { "item": "matches", "charges": [ 17, 20 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
@@ -73,12 +85,13 @@
           { "item": "multitool" },
           { "item": "water_clean" },
           { "item": "water_clean" },
+          { "item": "bandages", "count": 1 },
           { "item": "lighter", "charges": [ 30, 40 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
       },
-      "male": { "entries": [ { "item": "boxer_briefs" } ] },
+      "male": { "entries": [ { "item": "boxer_briefs", "variant": "boxer_brief_basic" } ] },
       "female": { "entries": [ { "item": "sports_bra" }, { "item": "boy_shorts" } ] }
     }
   },
@@ -109,12 +122,13 @@
           { "item": "utility_knife_folding" },
           { "item": "water_clean" },
           { "item": "water_clean" },
+          { "item": "bandages", "count": 1 },
           { "item": "small_lighter", "charges": [ 30, 40 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
       },
-      "male": { "entries": [ { "item": "boxer_briefs" } ] },
+      "male": { "entries": [ { "item": "boxer_briefs", "variant": "boxer_brief_basic" } ] },
       "female": { "entries": [ { "item": "boy_shorts" }, { "item": "sports_bra" } ] }
     }
   },
@@ -142,6 +156,7 @@
           { "item": "wristwatch" },
           { "item": "sheath", "contents-item": "knife_hunting" },
           { "item": "water_clean", "charges": 4,"container-item": "canteen" },
+          { "item": "bandages", "count": 1 },
           { "item": "survival_match", "count": [ 30, 40 ], "container-item": "null", "entry-wrapper": "bag_zipper" },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
@@ -173,12 +188,13 @@
           { "item": "boots_rubber" },
           { "item": "camera_bag" },
           { "item": "slingpack" },
-          { "item": "geiger_off", "charges": 100 },
+          { "item": "geiger_off", "charges": [ 14, 16 ] },
           { "group": "charged_flashlight" },
           { "item": "diving_watch" },
           { "item": "knife_swissarmy" },
           { "item": "water_clean" },
           { "item": "water_clean" },
+          { "item": "bandages", "count": 1 },
           { "item": "ref_matches", "charges": [ 30, 32 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
@@ -214,12 +230,13 @@
           { "item": "knife_folding" },
           { "item": "water_clean" },
           { "item": "water_clean" },
+          { "item": "bandages", "count": 1 },
           { "item": "ref_matches", "charges": [ 30, 32 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
       },
-      "male": { "entries": [ { "item": "boxer_briefs" } ] },
+      "male": { "entries": [ { "item": "boxer_briefs", "variant": "boxer_brief_basic" } ] },
       "female": { "entries": [ { "item": "sports_bra" }, { "item": "boy_shorts" } ] }
     }
   },
@@ -235,8 +252,7 @@
       { "level": 3, "name": "melee" },
       { "level": 3, "name": "stabbing" },
       { "level": 3, "name": "unarmed" },
-      { "level": 3, "name": "dodge" },
-      { "level": 3, "name": "speech" }
+      { "level": 3, "name": "dodge" }
     ],
     "items": {
       "both": {
@@ -253,6 +269,7 @@
           { "item": "switchblade" },
           { "item": "water_clean" },
           { "item": "water_clean" },
+          { "item": "bandages", "count": 1 },
           { "item": "ref_lighter", "charges": [ 30, 40 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
@@ -274,8 +291,7 @@
       { "level": 3, "name": "melee" },
       { "level": 3, "name": "stabbing" },
       { "level": 3, "name": "unarmed" },
-      { "level": 3, "name": "dodge" },
-      { "level": 3, "name": "speech" }
+      { "level": 3, "name": "dodge" }
     ],
     "items": {
       "both": {
@@ -292,12 +308,13 @@
           { "item": "sheath", "contents-item": "knife_trench" },
           { "item": "water_clean" },
           { "item": "water_clean" },
+          { "item": "bandages", "count": 1 },
           { "item": "ref_lighter", "charges": [ 30, 40 ] },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
       },
-      "male": { "entries": [ { "item": "boxer_briefs" } ] },
+      "male": { "entries": [ { "item": "boxer_briefs", "variant": "boxer_brief_basic" } ] },
       "female": { "entries": [ { "item": "sports_bra" }, { "item": "boy_shorts" } ] }
     }
   }
