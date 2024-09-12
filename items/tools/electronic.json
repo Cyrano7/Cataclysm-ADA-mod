@@ -4,7 +4,7 @@
     "copy-from": "smart_phone",
     "type": "TOOL",
     "name": { "str": "PDA" },
-    "description": "A popular, fancy smartphone.  Capable of taking photos with its integrated camera and illuminating an area with its flashlight app, assuming it has enough charge.  The smartphone also has a clock app that includes an alarm and an app for tracking consumed calories.  Runs on a small, rechargeable power cell compatible with a Unified Power Supply.",
+    "description": "A fancy smartphone.  Capable of taking photos with its integrated camera and illuminating an area with its flashlight app, assuming it has enough charge.  The PDA also has a clock app that includes an alarm and an app for tracking consumed calories.  Runs on a small, rechargeable power cell compatible with a Unified Power Supply.",
     "price": "1299 USD",
     "price_postapoc": "100 USD"
   }
