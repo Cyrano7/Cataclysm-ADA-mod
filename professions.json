@@ -1,5 +1,32 @@
 [
   {
+    "id": "starter_firestarter",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ 
+      {
+        "distribution": [
+          { "item": "matches", "charges": [ 17, 20 ], "prob": 20 },
+          { "item": "ref_matches", "charges": [ 17, 25 ], "prob": 20 },
+          { "item": "survival_match", "count": [ 17, 20 ], "container-item": "null", "entry-wrapper": "bag_zipper", "prob": 10 },
+          { "item": "small_lighter", "charges": [ 17, 25 ], "prob": 20 },
+          { "item": "lighter", "charges": [ 17, 25 ], "prob": 20 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "starter_wallet_full",
+    "type": "item_group",
+    "subtype": "collection",
+    "container-item": "wallet",
+    "items": [
+      { "item": "cash_card", "charges": [ 3000, 5000 ] },
+      { "group": "banknotes", "count": [ 5, 10 ] },
+      { "group": "coins", "count": [ 1, 5 ] }
+    ]
+  },
+  {
     "id": "charged_smart_phone",
     "type": "item_group",
     "subtype": "collection",
@@ -10,17 +37,6 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [ { "item": "flashlight", "charges": [ 45, 56 ] } ]
-  },
-  {
-    "id": "starter_wallet_full",
-    "type": "item_group",
-    "subtype": "collection",
-    "container-item": "wallet",
-    "items": [
-      { "item": "cash_card", "prob": 100, "charges": [ 0, 1000 ] },
-      { "group": "banknotes", "prob": 100, "count": [ 5, 10 ] },
-      { "group": "coins", "prob": 80, "count": [ 1, 5 ] }
-    ]
   },
   {
     "id": "naked",
@@ -49,7 +65,7 @@
           { "item": "pockknife" },
           { "item": "water_clean" },
           { "item": "adhesive_bandages", "count": 1 },
-          { "item": "matches", "charges": [ 17, 20 ] },
+          { "group": "starter_firestarter" },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
@@ -86,7 +102,7 @@
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "bandages", "count": 1 },
-          { "item": "lighter", "charges": [ 30, 40 ] },
+          { "group": "starter_firestarter" },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
@@ -117,13 +133,13 @@
           { "item": "sneakers" },
           { "item": "runner_bag" },
           { "item": "picklocks" },
-          { "item": "light_battery_cell", "ammo-item": "battery", "charges": 300, "container-item": "wearable_light" },
+          { "item": "light_battery_cell", "ammo-item": "battery", "charges": [ 14, 16 ], "container-item": "wearable_light" },
           { "item": "wristwatch" },
           { "item": "utility_knife_folding" },
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "bandages", "count": 1 },
-          { "item": "small_lighter", "charges": [ 30, 40 ] },
+          { "group": "starter_firestarter" },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
@@ -157,7 +173,7 @@
           { "item": "sheath", "contents-item": "knife_hunting" },
           { "item": "water_clean", "charges": 4,"container-item": "canteen" },
           { "item": "bandages", "count": 1 },
-          { "item": "survival_match", "count": [ 30, 40 ], "container-item": "null", "entry-wrapper": "bag_zipper" },
+          { "group": "starter_firestarter" },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
@@ -195,7 +211,7 @@
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "bandages", "count": 1 },
-          { "item": "ref_matches", "charges": [ 30, 32 ] },
+          { "group": "starter_firestarter" },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
@@ -225,13 +241,13 @@
           { "item": "socks" },
           { "item": "boots_combat" },
           { "item": "slingpack" },
-          { "item": "light_battery_cell", "ammo-item": "battery", "charges": 300, "container-item": "wearable_light" },
+          { "item": "light_battery_cell", "ammo-item": "battery", "charges": [ 14, 16 ], "container-item": "wearable_light" },
           { "item": "wristwatch" },
           { "item": "knife_folding" },
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "bandages", "count": 1 },
-          { "item": "ref_matches", "charges": [ 30, 32 ] },
+          { "group": "starter_firestarter" },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
@@ -309,7 +325,7 @@
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "bandages", "count": 1 },
-          { "item": "ref_lighter", "charges": [ 30, 40 ] },
+          { "group": "starter_firestarter" },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
         ]
