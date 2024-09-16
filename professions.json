@@ -2,17 +2,23 @@
   {
     "id": "starter_firestarter",
     "type": "item_group",
-    "subtype": "collection",
+    "subtype": "distribution",
     "entries": [ 
-      {
-        "distribution": [
           { "item": "matches", "charges": [ 17, 20 ], "prob": 20 },
           { "item": "ref_matches", "charges": [ 17, 25 ], "prob": 20 },
           { "item": "survival_match", "count": [ 17, 20 ], "container-item": "null", "entry-wrapper": "bag_zipper", "prob": 10 },
           { "item": "small_lighter", "charges": [ 17, 25 ], "prob": 20 },
           { "item": "lighter", "charges": [ 17, 25 ], "prob": 20 }
-        ]
-      }
+    ]
+  },
+  {
+    "id": "starter_facemask",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [ 
+          { "item": "bandana","prob": 60 },
+          { "item": "mask_dust", "variant": "white_mask_dust","prob": 30 },
+          { "item": "mask_dust", "variant": "blue_mask_dust", "prob": 10 }
     ]
   },
   {
@@ -22,8 +28,35 @@
     "container-item": "wallet",
     "items": [
       { "item": "cash_card", "charges": [ 3000, 5000 ] },
-      { "group": "banknotes", "count": [ 5, 10 ] },
+      { "group": "banknotes", "count": [ 6, 10 ] },
       { "group": "coins", "count": [ 1, 5 ] }
+    ]
+  },
+  {
+    "id": "starter_pistol",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "starter_makarov","prob": 30 },
+      { "group": "starter_tokarev","prob": 10 }
+    ]
+  },
+  {
+    "id": "starter_makarov",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "makarov", "ammo-item": "9x18mm", "charges": 8, "container-item": "holster" },
+      { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 }
+    ]
+  },
+  {
+    "id": "starter_tokarev",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "tokarev", "ammo-item": "762_25", "charges": 8, "container-item": "holster" },
+      { "item": "tokarevmag", "ammo-item": "762_25", "charges": 8 }
     ]
   },
   {
@@ -54,7 +87,7 @@
     "items": {
       "both": {
         "entries": [
-          { "item": "bandana" },
+          { "group": "starter_facemask" },
           { "item": "tshirt" },
           { "item": "hoodie" },
           { "item": "jeans" },
@@ -62,6 +95,7 @@
           { "item": "socks" },
           { "item": "sneakers" },
           { "item": "mbag" },
+          { "group": "starter_pistol" },
           { "item": "pockknife" },
           { "item": "water_clean" },
           { "item": "adhesive_bandages", "count": 1 },
@@ -86,7 +120,7 @@
       "both": {
         "entries": [
           { "item": "hat_ball" },
-          { "item": "bandana" },
+          { "group": "starter_facemask" },
           { "item": "longshirt" },
           { "item": "jacket_windbreaker" },
           { "item": "gloves_work" },
@@ -98,6 +132,7 @@
           { "item": "crowbar", "custom-flags": [ "auto_wield" ] },
           { "group": "charged_flashlight" },
           { "item": "wristwatch" },
+          { "group": "starter_pistol" },
           { "item": "multitool" },
           { "item": "water_clean" },
           { "item": "water_clean" },
@@ -135,6 +170,7 @@
           { "item": "picklocks" },
           { "item": "light_battery_cell", "ammo-item": "battery", "charges": [ 14, 16 ], "container-item": "wearable_light" },
           { "item": "wristwatch" },
+          { "group": "starter_pistol" },
           { "item": "utility_knife_folding" },
           { "item": "water_clean" },
           { "item": "water_clean" },
@@ -160,7 +196,7 @@
       "both": {
         "entries": [
           { "item": "hat_knit" },
-          { "item": "bandana" },
+          { "group": "starter_facemask" },
           { "item": "longshirt" },
           { "item": "jacket_light" },
           { "item": "gloves_liner" },
@@ -232,7 +268,7 @@
       "both": {
         "entries": [
           { "item": "hat_ball" },
-          { "item": "bandana" },
+          { "group": "starter_facemask" },
           { "item": "tshirt" },
           { "item": "hoodie" },
           { "item": "gloves_fingerless" },
@@ -312,7 +348,7 @@
     "items": {
       "both": {
         "entries": [
-          { "item": "balclava" },
+          { "item": "balaclava_cut_resistant" },
           { "item": "tank_top" },
           { "item": "trenchcoat_leather" },
           { "item": "gloves_fingerless" },
