@@ -22,6 +22,45 @@
     ]
   },
   {
+    "id": "starter_knife",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "pockknife","prob": 30 },
+      { "item": "knife_folding","prob": 20 }
+    ]
+  },
+  {
+    "id": "starter_knife_utility",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "knife_swissarmy","prob": 30 },
+      { "item": "utility_knife_folding","prob": 20 },
+      { "item": "multitool","prob": 10 }
+    ]
+  },
+  {
+    "id": "starter_knife_survival",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "sheath", "contents-item": "knife_hunting","prob": 40 },
+      { "item": "sheath", "contents-item": "knife_KABAR","prob": 10 }
+      
+    ]
+  },
+  {
+    "id": "starter_knife_combat",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "sheath", "contents-item": "knife_trench","prob": 30 },
+      { "item": "sheath", "contents-item": "knife_rm42","prob": 10 },
+      { "item": "sheath", "contents-item": "punch_dagger","prob": 10 }
+    ]
+  },
+  {
     "id": "starter_wallet_full",
     "type": "item_group",
     "subtype": "collection",
@@ -96,7 +135,7 @@
           { "item": "sneakers" },
           { "item": "mbag" },
           { "group": "starter_pistol" },
-          { "item": "pockknife" },
+          { "group": "starter_knife" },
           { "item": "water_clean" },
           { "item": "adhesive_bandages", "count": 1 },
           { "group": "starter_firestarter" },
@@ -133,7 +172,7 @@
           { "group": "charged_flashlight" },
           { "item": "wristwatch" },
           { "group": "starter_pistol" },
-          { "item": "multitool" },
+          { "group": "starter_knife_utility" },
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "bandages", "count": 1 },
@@ -171,7 +210,7 @@
           { "item": "light_battery_cell", "ammo-item": "battery", "charges": [ 14, 16 ], "container-item": "wearable_light" },
           { "item": "wristwatch" },
           { "group": "starter_pistol" },
-          { "item": "utility_knife_folding" },
+          { "group": "starter_knife_utility" },
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "bandages", "count": 1 },
@@ -206,7 +245,7 @@
           { "item": "backpack_hiking" },
           { "group": "charged_flashlight" },
           { "item": "wristwatch" },
-          { "item": "sheath", "contents-item": "knife_hunting" },
+          { "group": "starter_knife_survival" },
           { "item": "water_clean", "charges": 4,"container-item": "canteen" },
           { "item": "bandages", "count": 1 },
           { "group": "starter_firestarter" },
@@ -243,7 +282,7 @@
           { "item": "geiger_off", "charges": [ 14, 16 ] },
           { "group": "charged_flashlight" },
           { "item": "diving_watch" },
-          { "item": "knife_swissarmy" },
+          { "group": "starter_knife_utility" },
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "bandages", "count": 1 },
@@ -279,7 +318,7 @@
           { "item": "slingpack" },
           { "item": "light_battery_cell", "ammo-item": "battery", "charges": [ 14, 16 ], "container-item": "wearable_light" },
           { "item": "wristwatch" },
-          { "item": "knife_folding" },
+          { "group": "starter_knife" },
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "bandages", "count": 1 },
@@ -357,7 +396,7 @@
           { "item": "sneakers" },
           { "group": "charged_flashlight" },
           { "item": "wristwatch" },
-          { "item": "sheath", "contents-item": "knife_trench" },
+          { "group": "starter_knife_combat" },
           { "item": "water_clean" },
           { "item": "water_clean" },
           { "item": "bandages", "count": 1 },
