@@ -18,7 +18,20 @@
     "entries": [ 
           { "item": "bandana","prob": 60 },
           { "item": "mask_dust", "variant": "white_mask_dust","prob": 30 },
-          { "item": "mask_dust", "variant": "blue_mask_dust", "prob": 10 }
+          { "item": "mask_dust", "variant": "blue_mask_dust", "prob": 10 },
+          { "item": "mask_dust", "variant": "black_mask_dust", "prob": 10 }
+    ]
+  },
+  {
+    "id": "bandit_facemask",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [ 
+          { "item": "balclava","prob": 50 },
+          { "item": "bandana","prob": 30 },
+          { "item": "balaclava_skull", "prob": 20 },
+          { "item": "mask_ski", "prob": 20 },
+          { "item": "mask_hockey", "prob": 10 }
     ]
   },
   {
@@ -130,7 +143,6 @@
           { "item": "tshirt" },
           { "item": "hoodie" },
           { "item": "jeans" },
-          { "item": "leather_belt" },
           { "item": "socks" },
           { "item": "sneakers" },
           { "item": "mbag" },
@@ -348,7 +360,7 @@
     "items": {
       "both": {
         "entries": [
-          { "item": "balclava" },
+          { "group": "bandit_facemask" },
           { "item": "tank_top" },
           { "item": "trenchcoat_leather" },
           { "item": "gloves_fingerless" },
