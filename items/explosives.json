@@ -66,22 +66,22 @@
     "copy-from": "gasbomb",
     "type": "GENERIC",
     "name": { "str": "M7A2 CS gas grenade" },
+    "description": "A canister grenade filled with noxious irritant.  Use this item to pull the pin and start the fuse, turning it into an active tear gas grenade.  In five seconds it will begin to expel a highly toxic gas for some time.  This gas damages and slows those who enter it, as well as obscuring vision and scent.",
     "weight": "1058 g",
     "volume": "270 ml",
     "price": "36 USD",
-    "price_postapoc": "36 USD",
-    "description": "A canister grenade filled with noxious irritant.  Use this item to pull the pin and start the fuse, turning it into an active tear gas grenade.  In five seconds it will begin to expel a highly toxic gas for some time.  This gas damages and slows those who enter it, as well as obscuring vision and scent."
+    "price_postapoc": "36 USD"
   },
   {
     "id": "gasbomb_act",
     "copy-from": "gasbomb_act",
     "type": "GENERIC",
     "name": { "str": "M7A2 CS gas grenade" },
+    "description": "This tear gas grenade has had its pin removed and is (or will shortly be) expelling highly noxious gas.",
     "weight": "1058 g",
     "volume": "270 ml",
     "price": "36 USD",
-    "price_postapoc": "36 USD",
-    "description": "This tear gas grenade has had its pin removed and is (or will shortly be) expelling highly noxious gas."
+    "price_postapoc": "36 USD"
   },
   {
     "id": "flashbang",
