@@ -112,6 +112,21 @@
     ]
   },
   {
+    "id": "starter_shotgun",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "shot_00", "charges": [ 5, 8 ] },
+      { "item": "shot_bird", "charges": [ 5, 8 ] },
+      {
+        "distribution": [
+          { "item": "shotgun_toz34", "ammo-item": "shot_00", "charges": 2, "contents-item": "shoulder_strap_simple", "prob": 30 },
+          { "item": "shotgun_ij18", "ammo-item": "shot_00", "charges": 1, "contents-item": "shoulder_strap_simple", "prob": 20 }
+        ]
+      }
+    ]
+  },
+  {
     "id": "charged_smart_phone",
     "type": "item_group",
     "subtype": "collection",
@@ -257,6 +272,7 @@
           { "item": "backpack_hiking" },
           { "group": "charged_flashlight" },
           { "item": "wristwatch" },
+          { "group": "starter_shotgun" },
           { "group": "starter_knife_survival" },
           { "item": "water_clean", "charges": 4,"container-item": "canteen" },
           { "item": "bandages", "count": 1 },
