@@ -1,0 +1,29 @@
+[
+  {
+    "id": "shotgun_ij18",
+    "copy-from": "shotgun_s",
+    "type": "GUN",
+    "name": { "str": "IZh-18 single barrel shotgun" },
+    "description": "An old shotgun, possibly antique.  It is little more than a barrel, a wood stock, and a hammer to strike the cartridge.  Its simple design keeps it both light and accurate.",
+    "//": "Values based off Wikipedia page",
+    "weight": "2700 g",
+    "barrel_length": "730 mm",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "material": [ "steel", "wood" ]
+  },
+  {
+    "id": "shotgun_toz34",
+    "copy-from": "shotgun_d",
+    "type": "GUN",
+    "name": { "str": "TOZ-34 double barrel shotgun" },
+    "description": "An old shotgun, possibly antique.  It is little more than a pair of barrels, a wood stock, and a hammer to strike the cartridges.",
+    "//": "Values based off Wikipedia page",
+    "weight": "3300 g",
+    "longest_side": "1160 mm",
+    "barrel_length": "711 mm",
+    "price": "300 USD",
+    "price_postapoc": "300 USD",
+    "material": [ "steel", "wood" ]
+  }
+]
