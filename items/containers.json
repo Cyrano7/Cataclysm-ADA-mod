@@ -11,11 +11,10 @@
       {
         "id": "condom_plain",
         "name": { "str": "condom" },
-        "description": "This one is plain, no coloring or flavoring.",
-        "ascii_picture": "condom_plain",
-        "append": true
+        "description": "A gentleman's balloon.  A single-use life preventer.  A thumbless latex mitten.  This could be used as a makeshift container for liquids, but otherwise it's anyone's guess what it's for."
       }
-    ]
+    ],
+    "extend": { "flags": "TRADER_AVOID" }
   },
   {
     "id": "condom_sealed",
@@ -24,6 +23,7 @@
     "name": { "str": "sealed condom" },
     "description": "A sealed condom wrapper, activate to open it.",
     "price": "25 cent",
-    "price_postapoc": "25 cent"
+    "price_postapoc": "25 cent",
+    "extend": { "flags": "TRADER_AVOID" }
   }
 ]
