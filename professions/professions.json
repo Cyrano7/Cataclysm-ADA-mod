@@ -23,7 +23,7 @@
     ]
   },
   {
-    "id": "bandit_facemask",
+    "id": "starter_bandit_facemask",
     "type": "item_group",
     "subtype": "distribution",
     "entries": [ 
@@ -346,6 +346,7 @@
           { "item": "slingpack" },
           { "item": "light_battery_cell", "ammo-item": "battery", "charges": [ 14, 16 ], "container-item": "wearable_light" },
           { "item": "wristwatch" },
+          { "group": "starter_pistol" },
           { "group": "starter_knife" },
           { "item": "water_clean" },
           { "item": "water_clean" },
@@ -376,7 +377,7 @@
     "items": {
       "both": {
         "entries": [
-          { "group": "bandit_facemask" },
+          { "group": "starter_bandit_facemask" },
           { "item": "tank_top" },
           { "item": "trenchcoat_leather" },
           { "item": "gloves_fingerless" },
@@ -385,6 +386,7 @@
           { "item": "sneakers" },
           { "group": "charged_flashlight" },
           { "item": "wristwatch" },
+          { "group": "starter_shotgun" },
           { "item": "switchblade" },
           { "item": "water_clean" },
           { "item": "water_clean" },
@@ -424,6 +426,7 @@
           { "item": "sneakers" },
           { "group": "charged_flashlight" },
           { "item": "wristwatch" },
+          { "group": "starter_pistol" },
           { "group": "starter_knife_combat" },
           { "item": "water_clean" },
           { "item": "water_clean" },
