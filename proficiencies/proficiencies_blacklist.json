@@ -1,26 +1,34 @@
 [
   {
     "id": "prof_wp_triffid_basic",
-    "type": "proficiency",
     "copy-from": "prof_wp_triffid_basic",
+    "type": "proficiency",
     "name": { "str": "Triffid basic anatomy" },
     "description": "Study of triffids has given you insights into their anatomy that allows you to aim for some weak spots.",
     "required_proficiencies": []
   },
   {
     "id": "prof_wp_slime_basic",
-    "type": "proficiency",
     "copy-from": "prof_wp_slime_basic",
+    "type": "proficiency",
     "name": { "str": "Slime basic weaknesses" },
     "description": "After having engaged slimes to a significant extent you have started to get better at exploiting weaknesses in their behavior and, for lack of better terms, \"physiology\".",
     "required_proficiencies": []
   },
   {
     "id": "prof_wp_fungaloid_basic",
-    "type": "proficiency",
     "copy-from": "prof_wp_fungaloid_basic",
+    "type": "proficiency",
     "name": { "str": "Fungaloid basic anatomy" },
     "description": "You have studied fungaloids sufficiently to get an idea of which parts are the more sensitive ones.  While seeming to be a weird mixture of fungus and animal, it at least has a structure with commonalities between different types of fungaloids.",
+    "required_proficiencies": []
+  },
+  {
+    "id": "prof_wp_power_leech_basic",
+    "copy-from": "prof_wp_power_leech_basic",
+    "type": "proficiency",
+    "name": { "str": "Power leech basic anatomy" },
+    "description": "Your observations of the power leech anatomy is starting to pay off.  You now have a basic idea of where their more sensitive structures are located.  These creatures exhibit traits that seem to be a mix between animal and plant ones.",
     "required_proficiencies": []
   }
 ]
