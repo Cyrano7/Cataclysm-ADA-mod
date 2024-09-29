@@ -172,7 +172,7 @@
           { "group": "starter_pistol" },
           { "group": "starter_knife" },
           { "item": "water_clean" },
-          { "item": "adhesive_bandages", "count": 1 },
+          { "item": "bandages", "count": 1 },
           { "group": "starter_firestarter" },
           { "group": "charged_smart_phone" },
           { "group": "starter_wallet_full" }
@@ -189,7 +189,16 @@
     "//": "loner/scavenger build",
     "description": "This could be your lucky break.  Plenty of loot to be pilfered, and no cops to be seen.  Does it count as breaking and entering if everyone in town is undead?",
     "points": 2,
-    "skills": [ { "level": 4, "name": "traps" }, { "level": 3, "name": "swimming" } ],
+    "proficiencies": [
+      "prof_spotting",
+      "prof_gun_cleaning"
+    ],
+    "skills": [
+      { "level": 3, "name": "fabrication" },
+      { "level": 3, "name": "traps" },
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "pistol" }
+    ],
     "items": {
       "both": {
         "entries": [
@@ -226,8 +235,17 @@
     "//": "bandit/scavenger build",
     "description": "You've always admired the beauty of urban desolation, and were ready for your next excursion when the end of the world hit.  You suppose that pretty much every building could be considered abandoned now.",
     "points": 2,
-    "proficiencies": [ "prof_lockpicking", "prof_safecracking" ],
-    "skills": [ { "level": 6, "name": "traps" }, { "level": 2, "name": "dodge" } ],
+    "proficiencies": [
+      "prof_lockpicking",
+      "prof_spotting",
+      "prof_athlete_basic"
+    ],
+    "skills": [
+      { "level": 3, "name": "traps" },
+      { "level": 3, "name": "swimming" },
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "pistol" }
+    ],
     "items": {
       "both": {
         "entries": [
@@ -240,7 +258,6 @@
           { "item": "socks" },
           { "item": "sneakers" },
           { "item": "runner_bag" },
-          { "item": "stethoscope" },
           { "item": "picklocks" },
           { "item": "light_battery_cell", "ammo-item": "battery", "charges": [ 14, 16 ], "container-item": "wearable_light" },
           { "item": "wristwatch" },
@@ -269,10 +286,14 @@
       "prof_knives_familiar",
       "prof_butchering_basic",
       "prof_skinning_basic",
-      "prof_gross_anatomy",
-      "prof_wp_ungulate"
+      "prof_gross_anatomy"
     ],
-    "skills": [ { "level": 3, "name": "survival" } ],
+    "skills": [
+      { "level": 3, "name": "survival" },
+      { "level": 3, "name": "cooking" },
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "shotgun" }
+    ],
     "items": {
       "both": {
         "entries": [
@@ -307,7 +328,17 @@
     "//": "scientist/artifact hunter build",
     "description": "You were dismissed from your position as a parapsychology professor at the local university and started your own business as a paranormal investigator.  Your former colleagues didn't approve of your research, but it looks like it's paying off now.",
     "points": 2,
-    "skills": [ { "level": 3, "name": "electronics" }, { "level": 2, "name": "chemistry" }, { "level": 2, "name": "speech" } ],
+    "proficiencies": [
+      "prof_intro_chemistry",
+      "prof_intro_biology",
+      "prof_gross_anatomy"
+    ],
+    "skills": [
+      { "level": 3, "name": "chemistry" },
+      { "level": 3, "name": "computer" },
+      { "level": 2, "name": "electronics" },
+      { "level": 2, "name": "fabrication" }
+    ],
     "items": {
       "both": {
         "entries": [
@@ -342,7 +373,17 @@
     "//": "loner/combat build",
     "description": "You've always admired the beauty of urban desolation, and were ready for your next excursion when the end of the world hit.  You suppose that pretty much every building could be considered abandoned now.",
     "points": 2,
-    "skills": [ { "level": 4, "name": "traps" }, { "level": 3, "name": "swimming" } ],
+    "proficiencies": [
+      "prof_gun_cleaning",
+      "prof_spotting",
+      "prof_athlete_basic"
+    ],
+    "skills": [
+      { "level": 2, "name": "traps" },
+      { "level": 2, "name": "swimming" },
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "pistol" }
+    ],
     "items": {
       "both": {
         "entries": [
@@ -378,12 +419,17 @@
     "//": "bandit/combat build",
     "points": 2,
     "description": "Your flexible outlook on the law, the scuffles you've been in (and avoided) at the bar, and your impressive ability to weasel your way out of the consequences of your actions - all these skills have helped ensure your survival.  How much longer will they hold out?",
-    "proficiencies": [ "prof_knives_familiar", "prof_unarmed_familiar" ],
+    "proficiencies": [
+      "prof_unarmed_familiar",
+      "prof_shivs_familiar",
+      "prof_knives_familiar"
+    ],
     "skills": [
       { "level": 3, "name": "melee" },
       { "level": 3, "name": "stabbing" },
       { "level": 3, "name": "unarmed" },
-      { "level": 3, "name": "dodge" }
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "shotgun" }
     ],
     "items": {
       "both": {
@@ -417,12 +463,17 @@
     "//": "merc/combat build",
     "points": 2,
     "description": "Your flexible outlook on the law, the scuffles you've been in (and avoided) at the bar, and your impressive ability to weasel your way out of the consequences of your actions - all these skills have helped ensure your survival.  How much longer will they hold out?",
-    "proficiencies": [ "prof_knives_familiar", "prof_unarmed_familiar" ],
+    "proficiencies": [
+      "prof_gun_cleaning",
+      "prof_unarmed_familiar",
+      "prof_knives_familiar"
+    ],
     "skills": [
-      { "level": 3, "name": "melee" },
-      { "level": 3, "name": "stabbing" },
-      { "level": 3, "name": "unarmed" },
-      { "level": 3, "name": "dodge" }
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "stabbing" },
+      { "level": 2, "name": "unarmed" },
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "pistol" }
     ],
     "items": {
       "both": {
