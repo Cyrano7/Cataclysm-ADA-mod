@@ -1,5 +1,17 @@
 [
   {
+    "id": "tokarev",
+    "copy-from": "tokarev",
+    "type": "GUN",
+    "name": { "str": "Tokarev TT-33 handgun" },
+    "description": "The Tokarev TT-33 is an antique Russian semiautomatic pistol, famous for its durability, accuracy, and uncomfortable grip angle.  It was chambered for the 7.62x25mm due to the popularity of the C96 pistol among Russian revolutionaries.",
+    "variants": [],
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "material": [ "steel", "plastic" ],
+    "valid_mod_locations": []
+  },
+  {
     "id": "ppsh",
     "copy-from": "tommygun",
     "type": "GUN",

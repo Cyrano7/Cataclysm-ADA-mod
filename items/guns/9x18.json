@@ -1,0 +1,14 @@
+[
+  {
+    "id": "makarov",
+    "copy-from": "makarov",
+    "type": "GUN",
+    "name": { "str": "Makarov PM pistol" },
+    "description": "A svelte, Cold War era handgun of Russian heritage, this former military pistol fires the Soviet 9x18mm cartridge.  Constructed completely out of steel components and experiencing relative popularity throughout eastern European countries, it was a favored backup weapon amongst USSR security forces, soldiers, and covert units.",
+    "variants": [],
+    "price": "250 USD",
+    "price_postapoc": "250 USD",
+    "material": [ "steel", "plastic" ],
+    "valid_mod_locations": []
+  }
+]
