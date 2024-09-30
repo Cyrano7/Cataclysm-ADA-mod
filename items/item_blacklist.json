@@ -6,13 +6,22 @@
       "drink_strawberry_surprise",
       "drink_boozeberry",
       "drink_hobo",
+      "coffee_raw_kentucky",
+      "coffee_substitute",
+      "coffee_substitute_sweetened",
+      "fp_loyalty_card",
       "2_shot_special",
       "revolver_shotgun",
       "bigun",
       "123ln_casing",
       "reloaded_123ln",
       "bp_123ln",
-      "pamd68mountable"
+      "pamd68mountable",
+      "helmet_corinthian",
+      "helmet_corinthian_xs",
+      "xl_helmet_corinthian",
+      "helmet_aztec",
+      "armor_aztec"
     ]
   }
 ]
