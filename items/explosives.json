@@ -97,7 +97,7 @@
       "need_wielding": true,
       "target": "flashbang_act",
       "msg": "You pull the pin on the stun grenade.",
-      "target_timer": "5 seconds",
+      "target_timer": "3 seconds",
       "menu_text": "Pull pin",
       "type": "transform"
     }
