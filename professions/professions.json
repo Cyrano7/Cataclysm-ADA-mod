@@ -82,17 +82,6 @@
     ]
   },
   {
-    "id": "starter_wallet_full",
-    "type": "item_group",
-    "subtype": "collection",
-    "container-item": "wallet",
-    "items": [
-      { "item": "cash_card", "charges": [ 3000, 5000 ] },
-      { "group": "banknotes", "count": [ 6, 10 ] },
-      { "group": "coins", "count": [ 1, 5 ] }
-    ]
-  },
-  {
     "id": "starter_pistol",
     "type": "item_group",
     "subtype": "distribution",
@@ -135,15 +124,29 @@
     ]
   },
   {
+    "id": "starter_wallet_full",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "Override of base game item_group",
+    "container-item": "wallet",
+    "items": [
+      { "item": "cash_card", "charges": [ 3000, 5000 ] },
+      { "group": "banknotes", "count": [ 6, 10 ] },
+      { "group": "coins", "count": [ 1, 5 ] }
+    ]
+  },
+  {
     "id": "charged_smart_phone",
     "type": "item_group",
     "subtype": "collection",
+    "//": "Override of base game item_group",
     "entries": [ { "item": "smart_phone", "ammo-item": "battery", "charges": [ 45, 56 ] } ]
   },
   {
     "id": "charged_flashlight",
     "type": "item_group",
     "subtype": "collection",
+    "//": "Override of base game item_group",
     "entries": [ { "item": "flashlight", "charges": [ 45, 56 ] } ]
   },
   {
