@@ -1,5 +1,10 @@
 [
   {
+    "result": "kirpan",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
     "result": "smokebomb",
     "type": "recipe",
     "obsolete": true
