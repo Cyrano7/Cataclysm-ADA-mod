@@ -29,8 +29,8 @@
     "volume": "2873 ml",
     "longest_side": "844 mm",
     "barrel_length": "269 mm",
-    "price": "2 kUSD 800 USD",
-    "price_postapoc": "22 USD 50 cent",
+    "price": "350 USD",
+    "price_postapoc": "350 USD",
     "ammo": [ "762x25" ],
     "range": 2,
     "ranged_damage": { "damage_type": "bullet", "amount": 2 },
@@ -40,17 +40,8 @@
     "barrel_volume": "500 ml",
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
     "valid_mod_locations": [
-      [ "barrel", 1 ],
-      [ "brass catcher", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 2 ],
-      [ "muzzle", 1 ],
-      [ "sights", 1 ],
       [ "sling", 1 ],
-      [ "stock mount", 1 ],
-      [ "stock accessory", 2 ],
-      [ "underbarrel", 1 ],
-      [ "rail mount", 1 ]
+      [ "stock accessory", 2 ]
     ],
     "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "ppshmag", "ppshdrum" ] } ]
   }
