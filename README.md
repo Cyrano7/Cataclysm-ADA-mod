@@ -18,5 +18,5 @@ A work in progress S.T.A.L.K.E.R. themed content mod for Cataclysm Dark Days Ahe
 
 # DESIGN GOALS
 * Removal of fictional and sci-fi items that don't fit into the theme.
-* More emphasis on buying, scavenging, and looting instead of crafting.
+* More emphasis on trading, scavenging, and looting instead of crafting.
 * More specific items. Having named or branded(when possible) instead of generic items.
