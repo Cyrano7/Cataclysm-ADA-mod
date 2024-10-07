@@ -1,0 +1,17 @@
+[
+  {
+    "id": "sks",
+    "copy-from": "sks",
+    "type": "GUN",
+    "name": { "str": "SKS rifle" },
+    "description": "Developed by the Soviets in 1945, this rifle was quickly replaced by the full-auto AK-47.  However, due to its superb accuracy, low recoil, and deployable integrated bayonet, this gun maintains immense popularity.",
+    "variants": [],
+    "price": "380 USD",
+    "price_postapoc": "380 USD",
+    "built_in_mods": [ "inter_bayonet" ],
+    "valid_mod_locations": [
+      [ "sling", 1 ],
+      [ "stock accessory", 2 ]
+    ]
+  }
+]
