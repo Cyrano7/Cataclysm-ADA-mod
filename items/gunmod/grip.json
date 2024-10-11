@@ -1,0 +1,22 @@
+[
+  {
+    "id": "makarov_grip",
+    "copy-from": "pistol_grip",
+    "type": "GUNMOD",
+    "name": { "str": "Makarov Bakelite grip" },
+    "description": "A molded hand grip that covers the magazine well of the Makarov.  Improves handling.",
+    "//": "Returns Makarov to it's base values. Installed by default.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "integral_weight": "70 g",
+    "price": "8 USD",
+    "price_postapoc": "8 USD",
+    "install_time": "2 m",
+    "material": [ "plastic" ],
+    "color": "red",
+    "mod_targets": [ "makarov" ],
+    "handling_modifier": 2,
+    "min_skills": [ [ "weapon", 1 ] ]
+  }
+]
