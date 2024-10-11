@@ -1,0 +1,14 @@
+[
+  {
+    "id": "shot",
+    "type": "ammunition_type",
+    "name": "12ga shot",
+    "default": "shot_00"
+  },
+  {
+    "id": "signal_flare",
+    "type": "ammunition_type",
+    "name": "12ga flare",
+    "default": "signal_flare"
+  }
+]
