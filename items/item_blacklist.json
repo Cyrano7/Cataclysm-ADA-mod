@@ -3,6 +3,7 @@
     "type": "ITEM_BLACKLIST",
     "whitelist": false,
     "items": [
+      "dry_veggy_tainted",
       "mycus_fruit",
       "mycus_juice",
       "brew_mycus_wine",
