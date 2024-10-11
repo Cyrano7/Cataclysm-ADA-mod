@@ -1,0 +1,23 @@
+[
+  {
+    "result": "frybread",
+    "copy-from": "frybread",
+    "type": "recipe",
+    "//": "Learned in cookbook_native",
+    "autolearn": false
+  },
+  {
+    "result": "ndn_taco",
+    "copy-from": "ndn_taco",
+    "type": "recipe",
+    "//": "Learned in cookbook_native",
+    "autolearn": false
+  },
+  {
+    "result": "paella_valenciana",
+    "copy-from": "paella_valenciana",
+    "type": "recipe",
+    "//": "Learned in family_cookbook",
+    "autolearn": false
+  }
+]
