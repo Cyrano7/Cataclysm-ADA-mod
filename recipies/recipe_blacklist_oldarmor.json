@@ -1,55 +1,5 @@
 [
   {
-    "result": "tricorne",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
-    "result": "armor_cuirass",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
-    "result": "xs_armor_cuirass",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
-    "result": "xl_armor_cuirass",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
-    "result": "helmet_galea",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
-    "result": "helmet_galea_xs",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
-    "result": "xl_helmet_galea",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
-    "result": "armor_lorica",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
-    "result": "xs_armor_lorica",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
-    "result": "xl_armor_lorica",
-    "type": "recipe",
-    "obsolete": true
-  },
-  {
     "result": "helmet_kabuto",
     "type": "recipe",
     "obsolete": true
