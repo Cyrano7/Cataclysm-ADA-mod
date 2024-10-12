@@ -67,8 +67,8 @@
     "type": "item_group",
     "subtype": "distribution",
     "entries": [
-      { "item": "sheath", "contents-item": "knife_hunting","prob": 40 },
-      { "item": "sheath", "contents-item": "knife_KABAR","prob": 10 }
+      { "item": "sheath", "contents-item": "knife_hunting","prob": 70 },
+      { "item": "sheath", "contents-item": "knife_butcher","prob": 30 }
     ]
   },
   {
