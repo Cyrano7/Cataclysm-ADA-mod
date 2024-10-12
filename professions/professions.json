@@ -124,6 +124,15 @@
     ]
   },
   {
+    "id": "starter_sks",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "sks", "ammo-item": "762_m87", "charges": 10, "contents-item": "shoulder_strap_simple"},
+      { "item": "762_m87", "charges": [ 7, 12 ] }
+    ]
+  },
+  {
     "id": "starter_wallet_full",
     "type": "item_group",
     "subtype": "collection",
@@ -476,7 +485,7 @@
       { "level": 2, "name": "stabbing" },
       { "level": 2, "name": "unarmed" },
       { "level": 3, "name": "gun" },
-      { "level": 3, "name": "pistol" }
+      { "level": 3, "name": "rifle" }
     ],
     "items": {
       "both": {
@@ -490,7 +499,7 @@
           { "item": "sneakers" },
           { "group": "charged_flashlight" },
           { "item": "wristwatch" },
-          { "group": "starter_pistol" },
+          { "group": "starter_sks" },
           { "group": "starter_knife_combat" },
           { "group": "starter_water" },
           { "item": "bandages", "count": 1 },
