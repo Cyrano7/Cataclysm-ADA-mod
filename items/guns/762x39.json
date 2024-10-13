@@ -4,8 +4,22 @@
     "copy-from": "sks",
     "type": "GUN",
     "name": { "str": "SKS rifle" },
-    "description": "Developed by the Soviets in 1945, this rifle was quickly replaced by the full-auto AK-47.  However, due to its superb accuracy, low recoil, and deployable integrated bayonet, this gun maintains immense popularity.",
-    "variants": [],
+    "description": "A semi-automatic rifle chambered in 7.62x39mm, it features a deploy-able integrated bayonet.",
+    "variants": [
+      {
+        "id": "sks",
+        "name": { "str": "SKS rifle" },
+        "description": "A semi-automatic rifle chambered in 7.62x39mm, it features a deploy-able integrated bayonet.",
+        "weight": 90
+      },
+      {
+        "id": "sks_china",
+        "name": { "str": "Type 56 SKS rifle" },
+        "description": "Judging by the charterers stamped on it, this appears to be a Chinese variant.",
+        "append": true,
+        "weight": 10
+      }
+    ],
     "price": "380 USD",
     "price_postapoc": "380 USD",
     "built_in_mods": [ "inter_bayonet" ],
