@@ -4,7 +4,7 @@
     "copy-from": "shotgun_s",
     "type": "GUN",
     "name": { "str": "IZh-18 single barrel shotgun" },
-    "description": "An old break action shotgun.  It features a smoothbore barrel and a wooden stock and fore-end",
+    "description": "An old break action shotgun.  It features a single smoothbore barrel and a wooden stock and fore-end",
     "//": "Values based off Wikipedia page",
     "weight": "2700 g",
     "barrel_length": "730 mm",
@@ -26,6 +26,24 @@
     "weight": "3150 g",
     "longest_side": "1160 mm",
     "barrel_length": "711 mm",
+    "price": "300 USD",
+    "price_postapoc": "300 USD",
+    "material": [ "steel", "wood" ],
+    "valid_mod_locations": [
+      [ "sling", 1 ],
+      [ "stock accessory", 2 ]
+    ]
+  },
+  {
+    "id": "shotgun_toz66",
+    "copy-from": "shotgun_d",
+    "type": "GUN",
+    "name": { "str": "TOZ-66 double barrel shotgun" },
+    "description": "An old break action hammer fired shotgun.  It features a pair of side by side barrels and a wooden stock and fore-end.",
+    "//": "Values based off Wikipedia page",
+    "weight": "3200 g",
+    "longest_side": "1150 mm",
+    "barrel_length": "710 mm",
     "price": "300 USD",
     "price_postapoc": "300 USD",
     "material": [ "steel", "wood" ],
