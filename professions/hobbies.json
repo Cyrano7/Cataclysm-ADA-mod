@@ -3,7 +3,7 @@
     "id": "driving_license",
     "copy-from": "driving_license",
     "type": "profession",
-    "subtype": "hobby", 
+    "subtype": "hobby",
     "name": "Driving License",
     "description": "You got your driving license in your home country and know how to drive a car, change the oil and tires, and other basics."
   },
