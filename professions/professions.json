@@ -129,8 +129,13 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "item": "sks", "ammo-item": "762_m87", "charges": 10, "contents-item": "shoulder_strap_simple"},
-      { "item": "762_m87", "charges": [ 7, 12 ] }
+      { "item": "762_m87", "charges": [ 7, 12 ] },
+      {
+        "distribution": [
+          { "item": "sks", "ammo-item": "762_m87", "charges": 10, "contents-item": "shoulder_strap_simple", "prob": 95 },
+          { "item": "sks_d", "ammo-item": "762_m87", "charges": 10, "contents-item": "shoulder_strap_simple", "prob": 5 }
+        ]
+      }
     ]
   },
   {

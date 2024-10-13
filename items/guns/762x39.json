@@ -27,5 +27,28 @@
       [ "sling", 1 ],
       [ "stock accessory", 2 ]
     ]
+  },
+  {
+    "id": "sks_d",
+    "copy-from": "sks",
+    "type": "GUN",
+    "name": { "str": "Type 56 Mod D SKS rifle" },
+    "description": "A semi-automatic rifle chambered in 7.62x39mm, it is loaded from standard AK magazines and features a deploy-able integrated bayonet.  Judging by the charterers stamped on it, this appears to be a Chinese variant.",
+    "variants": [
+      {
+        "id": "sks_d",
+        "name": { "str": "Type 56 Mod D SKS rifle" },
+        "description": "A semi-automatic rifle chambered in 7.62x39mm, it is loaded from standard AK magazines and features a deploy-able integrated bayonet.  Judging by the charterers stamped on it, this appears to be a Chinese variant."
+      }
+    ],
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "built_in_mods": [ "inter_bayonet" ],
+    "valid_mod_locations": [
+      [ "sling", 1 ],
+      [ "stock accessory", 2 ]
+    ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "akmag10", "akmag20", "akmag30", "akmag40", "akdrum75" ] } ],
+    "delete": { "flags": "RELOAD_ONE" }
   }
 ]
