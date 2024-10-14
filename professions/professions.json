@@ -32,7 +32,7 @@
     ]
   },
   {
-    "id": "starter_bandit_facemask",
+    "id": "starter_facemask_bandit",
     "type": "item_group",
     "subtype": "distribution",
     "entries": [
@@ -466,7 +466,7 @@
     "items": {
       "both": {
         "entries": [
-          { "group": "starter_bandit_facemask" },
+          { "group": "starter_facemask_bandit" },
           { "item": "tank_top" },
           { "item": "trenchcoat_leather" },
           { "item": "gloves_fingerless" },
