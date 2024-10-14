@@ -12,7 +12,9 @@
     "price_postapoc": "200 USD",
     "material": [ "steel", "wood" ],
     "valid_mod_locations": [
+      [ "barrel", 1 ],
       [ "sling", 1 ],
+      [ "stock mount", 1 ],
       [ "stock accessory", 2 ]
     ]
   },
@@ -30,7 +32,9 @@
     "price_postapoc": "300 USD",
     "material": [ "steel", "wood" ],
     "valid_mod_locations": [
+      [ "barrel", 1 ],
       [ "sling", 1 ],
+      [ "stock mount", 1 ],
       [ "stock accessory", 2 ]
     ]
   },
@@ -48,7 +52,9 @@
     "price_postapoc": "300 USD",
     "material": [ "steel", "wood" ],
     "valid_mod_locations": [
+      [ "barrel", 1 ],
       [ "sling", 1 ],
+      [ "stock mount", 1 ],
       [ "stock accessory", 2 ]
     ]
   }
