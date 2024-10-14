@@ -9,8 +9,10 @@
       {
         "id": "makarovmag",
         "name": { "str": "Makarov 8-round magazine" },
-        "description": "A standard 8-round magazine for the Makarov pistol."
+        "description": "A standard 8-round magazine for Makarov type pistols."
       }
-    ]
+    ],
+    "price": "22 USD",
+    "price_postapoc": "2 USD 50 cent"
   }
 ]
