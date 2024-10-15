@@ -4,12 +4,12 @@
     "copy-from": "tokarevmag",
     "type": "MAGAZINE",
     "name": { "str": "Tokarev 8-round magazine" },
-    "description": "A standard 8-round magazine for the Tokarev handgun.",
+    "description": "A standard 8-round magazine for the Tokarev pistol.",
     "variants": [
       {
         "id": "tokarevmag",
         "name": { "str": "Tokarev 8-round magazine" },
-        "description": "A standard 8-round magazine for Tokarev type handguns."
+        "description": "A standard 8-round magazine for Tokarev type pistols."
       }
     ],
     "price": "13 USD",
