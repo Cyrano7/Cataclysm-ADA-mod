@@ -19,15 +19,29 @@
     ]
   },
   {
-    "id": "shotgun_toz34",
+    "id": "shotgun_izh27",
     "copy-from": "shotgun_d",
     "type": "GUN",
-    "name": { "str": "TOZ-34 double barrel shotgun" },
+    "name": { "str": "IZh-27 double barrel shotgun" },
     "description": "An old break action shotgun.  It features a pair of over and under stacked barrels and a wooden stock and fore-end.",
     "//": "Values based off Wikipedia page",
-    "weight": "3150 g",
+    "variants": [
+      {
+        "id": "shotgun_izh27",
+        "name": { "str": "IZh-27 double barrel shotgun" },
+        "description": "An old break action shotgun.  It features a pair of over and under stacked barrels and a wooden stock and fore-end.",
+        "weight": 60
+      },
+      {
+        "id": "shotgun_toz34",
+        "name": { "str": "TOZ-34 double barrel shotgun" },
+        "description": "An old break action shotgun.  It features a pair of over and under stacked barrels and a wooden stock and fore-end.",
+        "weight": 40
+      }
+    ],
+    "weight": "3200 g",
     "longest_side": "1160 mm",
-    "barrel_length": "711 mm",
+    "barrel_length": "720 mm",
     "price": "300 USD",
     "price_postapoc": "300 USD",
     "material": [ "steel", "wood" ],

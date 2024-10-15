@@ -117,7 +117,7 @@
       { "item": "shot_bird", "charges": [ 5, 8 ] },
       {
         "distribution": [
-          { "item": "shotgun_toz34", "ammo-item": "shot_00", "charges": 2, "contents-item": "shoulder_strap_simple", "prob": 40 },
+          { "item": "shotgun_izh27", "ammo-item": "shot_00", "charges": 2, "contents-item": "shoulder_strap_simple", "prob": 40 },
           { "item": "shotgun_toz66", "ammo-item": "shot_00", "charges": 2, "contents-item": "shoulder_strap_simple", "prob": 35 },
           { "item": "shotgun_ij18", "ammo-item": "shot_00", "charges": 1, "contents-item": "shoulder_strap_simple", "prob": 25 }
         ]
@@ -132,7 +132,7 @@
       { "item": "shot_00", "charges": [ 8, 14 ] },
       {
         "distribution": [
-          { "item": "shotgun_toz34", "ammo-item": "shot_00", "charges": 2, "contents-item": [ "stock_none", "barrel_small" ], "prob": 40 },
+          { "item": "shotgun_izh27", "ammo-item": "shot_00", "charges": 2, "contents-item": [ "stock_none", "barrel_small" ], "prob": 40 },
           { "item": "shotgun_toz66", "ammo-item": "shot_00", "charges": 2, "contents-item": [ "stock_none", "barrel_small" ], "prob": 60 }
         ]
       }
