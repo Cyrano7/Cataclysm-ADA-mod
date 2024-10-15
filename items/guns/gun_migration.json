@@ -1,0 +1,12 @@
+[
+  {
+    "id": "shotgun_s",
+    "type": "MIGRATION",
+    "replace": "shotgun_ij18"
+  },
+  {
+    "id": "shotgun_d",
+    "type": "MIGRATION",
+    "replace": "shotgun_toz34"
+  }
+]
