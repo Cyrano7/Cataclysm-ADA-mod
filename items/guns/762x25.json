@@ -4,12 +4,12 @@
     "copy-from": "tokarev",
     "type": "GUN",
     "name": { "str": "Tokarev pistol" },
-    "description": "A semi-automatic pistol chambered in 7.62x25mm, its all steel body feels very durable if not somewhat unwieldy.",
+    "description": "A semi-automatic pistol chambered in 7.62x25mm, its all steel body feels very durable but somewhat unwieldy.",
     "variants": [
       {
         "id": "tokarev",
         "name": { "str": "TT-33 Tokarev pistol" },
-        "description": "A semi-automatic pistol chambered in 7.62x25mm, its all steel body feels very durable if not somewhat unwieldy.",
+        "description": "A semi-automatic pistol chambered in 7.62x25mm, its all steel body feels very durable but somewhat unwieldy.",
         "weight": 90
       },
       {
