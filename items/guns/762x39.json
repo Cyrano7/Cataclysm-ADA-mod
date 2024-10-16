@@ -15,7 +15,7 @@
       {
         "id": "sks_china",
         "name": { "str": "Type 56 SKS rifle" },
-        "description": "Judging by the charterers stamped on it, this appears to be a Chinese variant.",
+        "description": "Judging by the charterers and marking stamped on it, this appears to have been produced in China.",
         "append": true,
         "weight": 10
       }
