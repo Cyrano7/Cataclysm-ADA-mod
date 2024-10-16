@@ -8,5 +8,20 @@
     "id": "shotgun_d",
     "type": "MIGRATION",
     "replace": "shotgun_izh27"
+  },
+  {
+    "id": "draco",
+    "type": "MIGRATION",
+    "replace": "aksemi"
+  },
+  {
+    "id": "draco_mini",
+    "type": "MIGRATION",
+    "replace": "aksemi"
+  },
+  {
+    "id": "draco_micro",
+    "type": "MIGRATION",
+    "replace": "aksemi"
   }
 ]
