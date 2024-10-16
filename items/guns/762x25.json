@@ -10,14 +10,21 @@
         "id": "tokarev",
         "name": { "str": "TT-33 Tokarev pistol" },
         "description": "A semi-automatic pistol chambered in 7.62x25mm, its all steel body feels very durable but somewhat unwieldy.",
-        "weight": 90
+        "weight": 85
       },
       {
         "id": "tokarev_30",
         "name": { "str": "TT-30 Tokarev pistol" },
-        "description": "This one seems quite old.",
+        "description": "It appears to be quite old.",
         "append": true,
         "weight": 10
+      },
+      {
+        "id": "tokarev_china",
+        "name": { "str": "Type 54 Tokarev pistol" },
+        "description": "Judging by the charterers and marking stamped on it, this appears to have been produced in China.",
+        "append": true,
+        "weight": 5
       }
     ],
     "price": "200 USD",
