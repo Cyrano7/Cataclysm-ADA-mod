@@ -22,7 +22,7 @@
       {
         "id": "tokarev_china",
         "name": { "str": "Type 54 Tokarev pistol" },
-        "description": "Judging by the charterers and marking stamped on it, this appears to have been produced in China.",
+        "description": "Judging by the charterers and markings stamped on it, this appears to have been produced in China.",
         "append": true,
         "weight": 5
       }
