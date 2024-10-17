@@ -4,8 +4,6 @@
     "copy-from": "honey_bottled",
     "type": "COMESTIBLE",
     "name": { "str_sp": "liquid honey" },
-    "description": "Honey, that stuff bees make.  This one is in liquid form.  It never spoils, and is good for your digestion.",
-    "price": "2 USD 50 cent",
-    "price_postapoc": "7 USD 50 cent"
+    "description": "Honey, that stuff bees make.  This one is in liquid form.  It never spoils, and is good for your digestion."
   }
 ]
