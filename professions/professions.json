@@ -4,11 +4,10 @@
     "type": "item_group",
     "subtype": "distribution",
     "entries": [
-          { "item": "matches", "charges": [ 17, 20 ], "prob": 20 },
-          { "item": "ref_matches", "charges": [ 17, 25 ], "prob": 20 },
-          { "item": "survival_match", "count": [ 17, 20 ], "container-item": "null", "entry-wrapper": "bag_zipper", "prob": 10 },
-          { "item": "small_lighter", "charges": [ 17, 25 ], "prob": 20 },
-          { "item": "lighter", "charges": [ 17, 25 ], "prob": 20 }
+          { "item": "matches", "charges": [ 17, 20 ], "prob": 25 },
+          { "item": "ref_matches", "charges": [ 17, 25 ], "prob": 25 },
+          { "item": "small_lighter", "charges": [ 17, 25 ], "prob": 25 },
+          { "item": "lighter", "charges": [ 17, 25 ], "prob": 25 }
     ]
   },
   {
