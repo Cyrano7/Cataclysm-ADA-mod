@@ -39,13 +39,14 @@
     "copy-from": "tommygun",
     "type": "GUN",
     "name": { "str": "PPSh-41 submachine gun" },
-    "description": "The Soviet-made PPSh-41 is a mass-produced selective-fire submachine gun.  It has a relatively high rate of fire.",
+    "description": "A bulky selective-fire submachine chambered in 7.62x25mm, composed from a basic wooden stock and stamped steel receiver it feels somewhat crudely made.",
     "variant_type": "gun",
     "variants": [
       {
         "id": "ppsh",
         "name": { "str": "PPSh-41 submachine gun" },
-        "description": "A bulky and simple Second World War submachine gun of Russian manufacture, composed from a basic wooden buttstock, steel barrel shroud, and the hopes and prayers of Soviet soldiers under threat of German invasion.  Designed for mass production with limited materials, the weapon is notable for its high-capacity drum magazines, capability of rapidly depleting said magazines, and vicious 7.62x25mm chambering."
+        "description": "It appears to be very old and is worn from use.",
+        "append": true
       }
     ],
     "weight": "3640 g",
@@ -54,16 +55,15 @@
     "barrel_length": "269 mm",
     "price": "350 USD",
     "price_postapoc": "350 USD",
+    "material": [ "steel", "wood" ],
     "ammo": [ "762x25" ],
-    "range": 2,
-    "ranged_damage": { "damage_type": "bullet", "amount": 2 },
     "dispersion": 120,
     "durability": 8,
     "min_cycle_recoil": 270,
-    "barrel_volume": "500 ml",
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
     "valid_mod_locations": [
       [ "sling", 1 ],
+      [ "stock mount", 1 ],
       [ "stock accessory", 2 ]
     ],
     "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "ppshmag", "ppshdrum" ] } ]
