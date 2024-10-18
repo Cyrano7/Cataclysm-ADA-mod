@@ -3,17 +3,21 @@
     "type": "SCENARIO_BLACKLIST",
     "subtype": "blacklist",
     "scenarios": [
+      "alcatraz",
       "BastionFortStart",
       "foodplace",
       "friend_liam",
       "fungal_start",
       "golden_years",
       "lab_cargo_staff_1",
+      "last_delivery",
       "Mansion",
       "medieval",
       "migo_prisoner",
       "patient",
-      "presort"
+      "presort",
+      "prisonbreak",
+      "summer_advanced_start"
     ]
   }
 ]
