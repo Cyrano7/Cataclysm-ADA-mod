@@ -76,7 +76,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "sheath", "contents-item": "knife_trench","prob": 30 },
-      { "item": "sheath", "contents-item": "knife_rm42","prob": 10 },
+      { "item": "sheath", "contents-item": "bayonet_ak","prob": 10 },
       { "item": "sheath", "contents-item": "punch_dagger","prob": 10 }
     ]
   },
