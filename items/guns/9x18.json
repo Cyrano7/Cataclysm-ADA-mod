@@ -4,20 +4,21 @@
     "copy-from": "makarov",
     "type": "GUN",
     "name": { "str": "Makarov pistol" },
-    "description": "A small blowback semi-automatic pistol chambered in 9x18mm. its simple all steel construction feels very reliable.",
+    "description": "A small blowback semi-automatic pistol chambered in 9x18mm. its simple all steel body construction feels very reliable.",
     "//": "Weight 730g based off Wikipedia page, handling and weight adjusted back in grip mod",
     "variant_type": "gun",
     "variants": [
       {
         "id": "makarov",
         "name": { "str": "Makarov pistol" },
-        "description": "A small blowback semi-automatic pistol chambered in 9x18mm. its simple all steel construction feels very reliable.",
+        "description": "It appears to be somewhat old and has seen some use.",
+        "append": true,
         "weight": 90
       },
       {
         "id": "makarov_new",
         "name": { "str": "Baikal 442 Makarov pistol" },
-        "description": "This appears to be a new production variant.",
+        "description": "It appears to be fairly new.",
         "append": true,
         "weight": 10
       }

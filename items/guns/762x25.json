@@ -10,13 +10,14 @@
       {
         "id": "tokarev",
         "name": { "str": "TT-33 Tokarev pistol" },
-        "description": "A semi-automatic pistol chambered in 7.62x25mm, its all steel body feels very durable but somewhat unwieldy.",
+         "description": "It appears to be quite old and is weathered from use.",
+        "append": true,
         "weight": 85
       },
       {
         "id": "tokarev_30",
         "name": { "str": "TT-30 Tokarev pistol" },
-        "description": "It appears to be quite old.",
+        "description": "It appears to be very old and is worn from use.",
         "append": true,
         "weight": 10
       },

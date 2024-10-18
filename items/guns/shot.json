@@ -42,7 +42,7 @@
       {
         "id": "shotgun_mp27",
         "name": { "str": "MP-27EM double barrel shotgun" },
-        "description": "This one appears to be a new production variant.",
+        "description": "It appears to be fairly new.",
         "append": true,
         "weight": 10
       }
