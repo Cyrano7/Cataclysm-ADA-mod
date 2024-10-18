@@ -5,6 +5,7 @@
     "type": "GUN",
     "name": { "str": "SKS rifle" },
     "description": "A semi-automatic rifle chambered in 7.62x39mm, it features a deploy-able integrated bayonet.",
+    "variant_type": "gun",
     "variants": [
       {
         "id": "sks",

@@ -25,6 +25,7 @@
     "name": { "str": "IZh-27 double barrel shotgun" },
     "description": "A hammerless break action shotgun.  It features a pair of over and under stacked barrels and a wooden stock and fore-end.",
     "//": "Values based off Wikipedia page",
+    "variant_type": "gun",
     "variants": [
       {
         "id": "shotgun_izh27",
