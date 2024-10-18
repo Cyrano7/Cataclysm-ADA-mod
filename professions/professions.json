@@ -138,6 +138,15 @@
     ]
   },
   {
+    "id": "starter_ppsh",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "762_25", "charges": [ 7, 16 ] },
+      { "item": "ppsh", "ammo-item": "762_25", "charges": 35, "contents-item": "shoulder_strap_simple" }
+    ]
+  },
+  {
     "id": "starter_sks",
     "type": "item_group",
     "subtype": "collection",
@@ -413,7 +422,7 @@
       { "level": 2, "name": "traps" },
       { "level": 2, "name": "swimming" },
       { "level": 3, "name": "gun" },
-      { "level": 3, "name": "pistol" }
+      { "level": 3, "name": "rifle" }
     ],
     "items": {
       "both": {
@@ -430,7 +439,7 @@
           { "item": "slingpack" },
           { "item": "light_battery_cell", "ammo-item": "battery", "charges": [ 14, 16 ], "container-item": "wearable_light" },
           { "item": "wristwatch" },
-          { "group": "starter_pistol" },
+          { "group": "starter_sks" },
           { "group": "starter_knife" },
           { "group": "starter_water" },
           { "item": "bandages", "count": 1 },
@@ -504,7 +513,7 @@
       { "level": 2, "name": "stabbing" },
       { "level": 2, "name": "unarmed" },
       { "level": 3, "name": "gun" },
-      { "level": 3, "name": "rifle" }
+      { "level": 3, "name": "smg" }
     ],
     "items": {
       "both": {
@@ -518,7 +527,7 @@
           { "item": "sneakers" },
           { "group": "charged_flashlight" },
           { "item": "wristwatch" },
-          { "group": "starter_sks" },
+          { "group": "starter_ppsh" },
           { "group": "starter_knife_combat" },
           { "group": "starter_water" },
           { "item": "bandages", "count": 1 },
