@@ -4,7 +4,7 @@
     "copy-from": "pistol_grip",
     "type": "GUNMOD",
     "name": { "str": "Makarov grip" },
-    "description": "A rust-colored molded Bakelite hand grip meant to covers the magazine well of the Makarov, it would be awkward to shot without it.  Improves handling.",
+    "description": "A rust-colored molded Bakelite hand grip meant to cover the magazine well of the Makarov, it would be awkward to shoot without it.  Improves handling.",
     "//": "Returns Makarov to it's base values. Installed by default.",
     "weight": "70 g",
     "volume": "250 ml",
