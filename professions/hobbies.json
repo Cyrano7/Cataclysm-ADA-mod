@@ -24,6 +24,16 @@
     "description": "You've managed to survive modern life in a developed country.  Through your ordeals you've learned how to treat scrapes and bruises, and how to assemble basic furniture."
   },
   {
+    "id": "meatarian",
+    "copy-from": "meatarian",
+    "type": "profession",
+    "subtype": "hobby",
+    "name": "Butchering",
+    "description": "You absolutely love meat.  Your particular tastes have turned you into a decent amateur butcher.",
+    "points": 2,
+    "traits": []
+  },
+  {
     "id": "swimming_beginner",
     "copy-from": "swimming_beginner",
     "type": "profession",
