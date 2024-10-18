@@ -46,7 +46,15 @@
         "id": "ppsh",
         "name": { "str": "PPSh-41 submachine gun" },
         "description": "It appears to be very old and is worn from use.",
-        "append": true
+        "append": true,
+        "weight": 95
+      },
+      {
+        "id": "ppsh_china",
+        "name": { "str": "Type 50 PPSh-41 submachine gun" },
+        "description": "Judging by the charterers and markings stamped on it, this appears to have been produced in China.",
+        "append": true,
+        "weight": 5
       }
     ],
     "weight": "3640 g",
