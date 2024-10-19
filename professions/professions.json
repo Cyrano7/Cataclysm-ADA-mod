@@ -81,15 +81,6 @@
     ]
   },
   {
-    "id": "starter_pistol",
-    "type": "item_group",
-    "subtype": "distribution",
-    "entries": [
-      { "group": "starter_makarov","prob": 30 },
-      { "group": "starter_tokarev","prob": 10 }
-    ]
-  },
-  {
     "id": "starter_makarov",
     "type": "item_group",
     "subtype": "collection",
@@ -105,6 +96,15 @@
     "entries": [
       { "item": "tokarev", "ammo-item": "762_25", "charges": 8, "container-item": "holster" },
       { "item": "tokarevmag", "ammo-item": "762_25", "charges": 8 }
+    ]
+  },
+  {
+    "id": "starter_pistol",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "starter_makarov","prob": 30 },
+      { "group": "starter_tokarev","prob": 10 }
     ]
   },
   {
@@ -144,6 +144,24 @@
     "entries": [
       { "item": "762_25", "charges": [ 7, 16 ] },
       { "item": "ppsh", "ammo-item": "762_25", "charges": 35, "contents-item": "shoulder_strap_simple" }
+    ]
+  },
+  {
+    "id": "starter_pps",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "762_25", "charges": [ 7, 16 ] },
+      { "item": "pps", "ammo-item": "762_25", "charges": 35, "contents-item": "shoulder_strap_simple" }
+    ]
+  },
+  {
+    "id": "starter_smg",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "starter_ppsh","prob": 70 },
+      { "group": "starter_pps","prob": 30 }
     ]
   },
   {
@@ -203,7 +221,7 @@
       "both": {
         "entries": [
           { "group": "starter_facemask" },
-          { "item": "tshirt" },
+          { "item": "tshirt", "variant": "generic_tshirt" },
           { "item": "hoodie" },
           { "item": "jeans" },
           { "item": "socks" },
@@ -527,7 +545,7 @@
           { "item": "sneakers" },
           { "group": "charged_flashlight" },
           { "item": "wristwatch" },
-          { "group": "starter_ppsh" },
+          { "group": "starter_smg" },
           { "group": "starter_knife_combat" },
           { "group": "starter_water" },
           { "item": "bandages", "count": 1 },

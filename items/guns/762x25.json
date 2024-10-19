@@ -10,7 +10,7 @@
       {
         "id": "tokarev",
         "name": { "str": "TT-33 Tokarev pistol" },
-         "description": "It appears to be quite old and is weathered from use.",
+        "description": "It appears to be quite old and is weathered from use.",
         "append": true,
         "weight": 85
       },
@@ -40,6 +40,7 @@
     "type": "GUN",
     "name": { "str": "PPSh-41 submachine gun" },
     "description": "A bulky selective-fire submachine chambered in 7.62x25mm, composed from a basic wooden stock and stamped steel receiver it feels somewhat crudely made.",
+    "//": "Values based off Wikipedia page",
     "variant_type": "gun",
     "variants": [
       {
@@ -57,9 +58,9 @@
         "weight": 5
       }
     ],
-    "weight": "3640 g",
+    "weight": "3630 g",
     "volume": "2873 ml",
-    "longest_side": "844 mm",
+    "longest_side": "843 mm",
     "barrel_length": "269 mm",
     "price": "350 USD",
     "price_postapoc": "350 USD",
@@ -75,5 +76,46 @@
       [ "stock accessory", 2 ]
     ],
     "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "ppshmag", "ppshdrum" ] } ]
+  },
+  {
+    "id": "pps",
+    "copy-from": "ppsh",
+    "type": "GUN",
+    "name": { "str": "PPS-43 submachine gun" },
+    "description": "A selective-fire submachine chambered in 7.62x25mm, featuring a folding stock and stamped steel receiver it feels somewhat crudely made.",
+    "//": "Values based off Wikipedia page",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "pps",
+        "name": { "str": "PPS-43 submachine gun" },
+        "description": "It appears to be very old and is worn from use.",
+        "append": true,
+        "weight": 95
+      },
+      {
+        "id": "pps_42",
+        "name": { "str": "PPS-42 submachine gun" },
+        "description": "It appears to be very old and is worn from use.",
+        "append": true,
+        "weight": 5
+      }
+    ],
+    "weight": "3040 g",
+    "volume": "2873 ml",
+    "longest_side": "820 mm",
+    "barrel_length": "243 mm",
+    "price": "350 USD",
+    "price_postapoc": "350 USD",
+    "material": "steel",
+    "dispersion": 120,
+    "durability": 8,
+    "min_cycle_recoil": 270,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
+    "built_in_mods": [ "wire_stock" ],
+    "valid_mod_locations": [
+      [ "sling", 1 ]
+    ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "ppsmag" ] } ]
   }
 ]
