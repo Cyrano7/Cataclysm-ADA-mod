@@ -165,15 +165,16 @@
     ]
   },
   {
-    "id": "starter_sks",
+    "id": "starter_rifle",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
       { "item": "762_m87", "charges": [ 7, 12 ] },
       {
         "distribution": [
-          { "item": "sks", "ammo-item": "762_m87", "charges": 10, "contents-item": "shoulder_strap_simple", "prob": 95 },
-          { "item": "sks_d", "ammo-item": "762_m87", "charges": 10, "contents-item": "shoulder_strap_simple", "prob": 5 }
+          { "item": "sks", "ammo-item": "762_m87", "charges": 10, "contents-item": "shoulder_strap_simple", "prob": 80 },
+          { "item": "sks_d", "ammo-item": "762_m87", "charges": 10, "contents-item": "shoulder_strap_simple", "prob": 5 },
+          { "item": "akm_semi", "ammo-item": "762_m87", "charges": 10, "contents-item": "shoulder_strap_simple", "prob": 15 }
         ]
       }
     ]
@@ -457,7 +458,7 @@
           { "item": "slingpack" },
           { "item": "light_battery_cell", "ammo-item": "battery", "charges": [ 14, 16 ], "container-item": "wearable_light" },
           { "item": "wristwatch" },
-          { "group": "starter_sks" },
+          { "group": "starter_rifle" },
           { "group": "starter_knife" },
           { "group": "starter_water" },
           { "item": "bandages", "count": 1 },
