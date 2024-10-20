@@ -23,9 +23,10 @@
     ],
     "price": "380 USD",
     "price_postapoc": "380 USD",
-    "built_in_mods": [ "inter_bayonet" ],
+    "built_in_mods": [ "inter_bayonet_folded" ],
     "valid_mod_locations": [
       [ "sling", 1 ],
+      [ "underbarrel", 1 ],
       [ "stock accessory", 2 ]
     ]
   },
@@ -37,9 +38,10 @@
     "description": "A semi-automatic rifle chambered in 7.62x39mm, it is loaded from standard AK magazines and features a deploy-able integrated bayonet.  Judging by the charterers and markings stamped on it, this appears to have been produced in China.",
     "price": "400 USD",
     "price_postapoc": "400 USD",
-    "built_in_mods": [ "inter_bayonet" ],
+    "built_in_mods": [ "inter_bayonet_folded" ],
     "valid_mod_locations": [
       [ "sling", 1 ],
+      [ "underbarrel", 1 ],
       [ "stock accessory", 2 ]
     ],
     "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "akmag10", "akmag20", "akmag30", "akmag40", "akdrum75" ] } ],

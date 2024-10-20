@@ -114,7 +114,8 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "built_in_mods": [ "wire_stock" ],
     "valid_mod_locations": [
-      [ "sling", 1 ]
+      [ "sling", 1 ],
+      [ "stock", 1 ]
     ],
     "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "ppsmag" ] } ]
   }
