@@ -20,7 +20,7 @@
     "price_postapoc": "12 USD 50 cent",
     "gunmod_data": {
       "location": "bayonet lug",
-      "mod_targets": [ "aksemi", "ak47", "ak74_semi" ],
+      "mod_targets": [ "akm_semi", "akm", "ak74_semi" ],
       "is_bayonet": true,
       "blacklist_mod": [],
       "install_time": "6 s"

@@ -46,5 +46,70 @@
     ],
     "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "akmag10", "akmag20", "akmag30", "akmag40", "akdrum75" ] } ],
     "delete": { "flags": "RELOAD_ONE" }
+  },
+  {
+    "id": "akm",
+    "copy-from": "ak47",
+    "type": "GUN",
+    "name": { "str": "AKM rifle" },
+    "description": "One of the most recognizable assault rifles ever made, the AKM is renowned for its durability even under the worst conditions.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "akm",
+        "name": { "str": "AKM" },
+        "description": "Arguably the most mass-produced firearm ever made, the AKM has cemented itself in history, and a few country flags.  Designed after WW2, it was meant to replace the PPSh-41's role, but soon became the main infantry rifle.  While many believe it is a copy of the German StG-44, it more resembles an M1 Garand in operation.  Despite it's age, it still sees plenty of use in conflicts today."
+      }
+    ],
+    "weight": "3402 g",
+    "volume": "2167 ml",
+    "longest_side": "87 cm",
+    "barrel_length": "415 mm",
+    "price": "2 kUSD 900 USD",
+    "price_postapoc": "40 USD",
+    "material": [ "steel", "wood" ],
+    "color": "brown",
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "valid_mod_locations": [
+      [ "bayonet lug", 1 ],
+      [ "sling", 1 ],
+      [ "stock accessory", 2 ]
+    ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] } ]
+  },
+  {
+    "id": "akm_semi",
+    "copy-from": "akm",
+    "type": "GUN",
+    "name": { "str": "AKM Semi-auto rifle" },
+    "description": "Civilian-legal clones of the AK-47, with no ability to fire full-auto.  Despite lacking that ability, they're still reliable and useful rifles, even if much rarer ammo and magazine wise than the more common AR-15 platform.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "akm_semi",
+        "name": { "str": "VPO-136 AKM Semi-auto rifle" },
+        "description": "This one is a VPO-136, manufactured in Russia by Molot Arms.",
+        "weight": 16,
+        "append": true
+      },
+      {
+        "id": "aksemi_wasr",
+        "name": { "str": "WASR-10" },
+        "description": "This one is a WASR-10.",
+        "weight": 8,
+        "append": true
+      },
+      {
+        "id": "aksemi_zpap",
+        "name": { "str": "Zastava ZPAP M70" },
+        "description": "This one is a ZPAP M70.",
+        "weight": 5,
+        "append": true
+      }
+    ],
+    "price": "795 USD",
+    "price_postapoc": "30 USD",
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "akmag10", "akmag20", "akmag30", "akmag40", "akdrum75" ] } ]
   }
 ]

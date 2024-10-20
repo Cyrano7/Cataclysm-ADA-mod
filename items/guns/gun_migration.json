@@ -10,18 +10,28 @@
     "replace": "shotgun_izh27"
   },
   {
+    "id": "ak47",
+    "type": "MIGRATION",
+    "replace": "akm"
+  },
+  {
+    "id": "aksemi",
+    "type": "MIGRATION",
+    "replace": "akm_semi"
+  },
+  {
     "id": "draco",
     "type": "MIGRATION",
-    "replace": "aksemi"
+    "replace": "akm_semi"
   },
   {
     "id": "draco_mini",
     "type": "MIGRATION",
-    "replace": "aksemi"
+    "replace": "akm_semi"
   },
   {
     "id": "draco_micro",
     "type": "MIGRATION",
-    "replace": "aksemi"
+    "replace": "akm_semi"
   }
 ]
