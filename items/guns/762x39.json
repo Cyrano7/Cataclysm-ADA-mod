@@ -82,7 +82,7 @@
     "copy-from": "akm",
     "type": "GUN",
     "name": { "str": "AKM Semi-auto rifle" },
-    "description": "Civilian-legal clones of the AK-47, with no ability to fire full-auto.  Despite lacking that ability, they're still reliable and useful rifles, even if much rarer ammo and magazine wise than the more common AR-15 platform.",
+    "description": "Civilian-legal clones of the AK-47, with no ability to fire full-auto.  Despite lacking that ability, they're still reliable and useful rifles.",
     "variant_type": "gun",
     "variants": [
       {
@@ -90,20 +90,6 @@
         "name": { "str": "VPO-136 AKM Semi-auto rifle" },
         "description": "This one is a VPO-136, manufactured in Russia by Molot Arms.",
         "weight": 16,
-        "append": true
-      },
-      {
-        "id": "aksemi_wasr",
-        "name": { "str": "WASR-10" },
-        "description": "This one is a WASR-10.",
-        "weight": 8,
-        "append": true
-      },
-      {
-        "id": "aksemi_zpap",
-        "name": { "str": "Zastava ZPAP M70" },
-        "description": "This one is a ZPAP M70.",
-        "weight": 5,
         "append": true
       }
     ],
