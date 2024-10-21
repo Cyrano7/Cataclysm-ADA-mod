@@ -4,26 +4,29 @@
     "copy-from": "knife_combat_army",
     "type": "TOOL",
     "name": { "str": "AK Bayonet" },
-    "description": "A sturdy bayonet for Kalashnikov pattern rifles.  The blade is made of thick steel and the handle of a durable plastic.  It features a mediocre metal saw on the spine of the blade.",
+    "description": "A sturdy bayonet for AK pattern rifles.  The blade is made of thick steel and the handle of a durable plastic.  It features a mediocre metal saw on the spine of the blade.",
     "//": "Weight and total length values based off Russian Wikipedia page for 6H4",
     "variant_type": "gun",
     "variants": [
       {
         "id": "bayonet_ak",
         "name": { "str": "6H4 AK bayonet" },
-        "description": "A sturdy bayonet for Kalashnikov pattern rifles.  The blade is made of thick steel and the handle of a durable plastic.  It features a mediocre metal saw on the spine of the blade.",
+        "description": "It appears to be somewhat old and has definitely seen some use.",
+        "append": true,
         "weight": 60
       },
       {
         "id": "bayonet_ak3",
         "name": { "str": "6H3 AK bayonet" },
-        "description": "A sturdy bayonet for Kalashnikov pattern rifles.  The blade is made of thick steel and the handle of a durable plastic.  It features a mediocre metal saw on the spine of the blade.",
+        "description": "It appears to be quite old and is weathered from use.",
+        "append": true,
         "weight": 30
       },
       {
         "id": "bayonet_ak5",
         "name": { "str": "6H5 AK bayonet" },
-        "description": "A sturdy bayonet for Kalashnikov pattern rifles.  The blade is made of thick steel and the handle of a durable plastic.  It features a mediocre metal saw on the spine of the blade.",
+        "description": "The plastic handle is a dark gray color and it appears to be fairly new with some wear marks.",
+        "append": true,
         "weight": 10,
         "color": "dark_gray"
       }
