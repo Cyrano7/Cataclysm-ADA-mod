@@ -25,7 +25,7 @@
       {
         "id": "bayonet_ak5",
         "name": { "str": "6H5 AK bayonet" },
-        "description": "The plastic handle is a dark gray color and it appears to be fairly new with some wear marks.",
+        "description": "The plastic handle is a dark gray color and it appears to be fairly new.",
         "append": true,
         "weight": 10,
         "color": "dark_gray"
