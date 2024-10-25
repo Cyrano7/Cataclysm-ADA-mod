@@ -24,7 +24,7 @@
       {
         "id": "tokarev_china",
         "name": { "str": "Type 54 Tokarev pistol" },
-        "description": "Judging by the charterers and markings stamped on it, this appears to have been produced in China.",
+        "description": "It appears to be quite old and is weathered from use.  Judging by the charterers and markings stamped on it, this appears to have been produced in China.",
         "append": true,
         "weight": 5
       }
@@ -53,14 +53,14 @@
       {
         "id": "ppsh_china",
         "name": { "str": "Type 50 PPSh submachine gun" },
-        "description": "Judging by the charterers and markings stamped on it, this appears to have been produced in China.",
+        "description": "It appears to be very old and is worn from use.  Judging by the charterers and markings stamped on it, this appears to have been produced in China.",
         "append": true,
         "weight": 5
       },
       {
         "id": "ppsh_dprk",
         "name": { "str": "M49 PPSh submachine gun" },
-        "description": "Judging by the charterers and markings stamped on it, this appears to have been produced in North Korea.",
+        "description": "It appears to be very old and is worn from use.  Judging by the charterers and markings stamped on it, this appears to have been produced in North Korea.",
         "append": true,
         "weight": 1
       }
