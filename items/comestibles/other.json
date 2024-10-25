@@ -1,0 +1,12 @@
+[
+  {
+    "id": "gum",
+    "copy-from": "gum",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "chewing gum" },
+    "description": "Sugar-free chewing gum.",
+    "//": "Variants removed",
+    "price": "5 cent",
+    "price_postapoc": "5 cent"
+  }
+]
