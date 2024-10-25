@@ -6,8 +6,8 @@
     "name": { "str": "condom" },
     "description": "A gentleman's balloon.  A single-use life preventer.  A thumbless latex mitten.  This could be used as a makeshift container for liquids, but otherwise it's anyone's guess what it's for.",
     "//": "Variants removed",
-    "price": "25 cent",
-    "price_postapoc": "25 cent",
+    "price": "50 cent",
+    "price_postapoc": "50 cent",
     "extend": { "flags": "TRADER_AVOID" }
   },
   {
@@ -16,8 +16,8 @@
     "type": "GENERIC",
     "name": { "str": "sealed condom" },
     "description": "A sealed condom wrapper, activate to open it.",
-    "price": "25 cent",
-    "price_postapoc": "25 cent",
+    "price": "50 cent",
+    "price_postapoc": "50 cent",
     "extend": { "flags": "TRADER_AVOID" }
   }
 ]
