@@ -5,6 +5,22 @@
     "type": "MAGAZINE",
     "name": { "str": "AK 10-round magazine" },
     "description": "A compact 10-round magazine for 7.62x39mm AK-pattern rifles, made of stamped sheet steel.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "akmag10",
+        "name": { "str": "AK 10-round magazine" },
+        "description": "A compact 10-round magazine for 7.62x39mm AK-pattern rifles, made of stamped sheet steel.",
+        "weight": 90
+      },
+      {
+        "id": "akmag10_cutdown",
+        "name": { "str": "Cut-down AK 10-round magazine" },
+        "description": "This appears to have been a larger magazine at some point, now shortened to hold fewer rounds.",
+        "weight": 10,
+        "append": true
+      }
+    ],
     "weight": "113 g",
     "volume": "196 ml",
     "longest_side": "122 mm",
