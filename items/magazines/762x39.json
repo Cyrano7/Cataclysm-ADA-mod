@@ -1,0 +1,67 @@
+[
+  {
+    "id": "akmag10",
+    "copy-from": "akmag10",
+    "type": "MAGAZINE",
+    "name": { "str": "AK 10-round magazine" },
+    "description": "A compact 10-round magazine for 7.62x39mm AK-pattern rifles, made of stamped sheet steel.",
+    "weight": "113 g",
+    "volume": "196 ml",
+    "longest_side": "122 mm",
+    "price": "30 USD",
+    "price_postapoc": "5 USD",
+    "material": [ "steel" ]
+  },
+  {
+    "id": "akmag20",
+    "copy-from": "akmag20",
+    "type": "MAGAZINE",
+    "name": { "str": "AK 20-round magazine" },
+    "description": "A compact 20-round magazine for 7.62x39mm AK-pattern rifles, made of stamped sheet steel.",
+    "weight": "152 g",
+    "volume": "287 ml",
+    "longest_side": "178 mm",
+    "price": "30 USD",
+    "price_postapoc": "10 USD",
+    "material": [ "steel" ]
+  },
+  {
+    "id": "akmag30",
+    "copy-from": "akmag30",
+    "type": "MAGAZINE",
+    "name": { "str": "AK 30-round magazine" },
+    "description": "A standard 30-round magazine for 7.62x39mm AK-pattern rifles, made of stamped sheet steel.",
+    "weight": "326 g",
+    "volume": "379 ml",
+    "longest_side": "235 mm",
+    "price": "28 USD",
+    "price_postapoc": "10 USD",
+    "material": [ "steel" ]
+  },
+  {
+    "id": "akmag40",
+    "copy-from": "akmag40",
+    "type": "MAGAZINE",
+    "name": { "str": "AK 40-round magazine" },
+    "description": "An extended 40-round magazine for 7.62x39mm AK-pattern rifles, made of stamped sheet steel.",
+    "weight": "424 g",
+    "volume": "493 ml",
+    "longest_side": "294 mm",
+    "price": "45 USD",
+    "price_postapoc": "20 USD",
+    "material": [ "steel" ]
+  },
+  {
+    "id": "akdrum75",
+    "copy-from": "akdrum75",
+    "type": "MAGAZINE",
+    "name": { "str": "AK 75-round drum magazine" },
+    "description": "A bulky 75-round drum magazine for 7.62x39mm AK-pattern rifles, made of stamped sheet steel.",
+    "weight": "1020 g",
+    "volume": "1142 ml",
+    "longest_side": "197 mm",
+    "price": "80 USD",
+    "price_postapoc": "30 USD",
+    "material": [ "steel" ]
+  }
+]
